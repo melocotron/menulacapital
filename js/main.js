@@ -22,6 +22,14 @@ window.addEventListener("load", function () {
   for (let i = 0; i < myTabs.length; i++) {
     myTabs[i].addEventListener("click", myTabClicks)
   }
+
+
+});
+
+document.getElementById("toTop").addEventListener("click", function () {
+  // document.body.scrollTop = 0;
+  // document.documentElement.scrollTop = 0;
+  window.scrollTo({top: 0, behavior: 'smooth'});
 });
 
 
