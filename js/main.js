@@ -27,10 +27,16 @@ window.addEventListener("load", function () {
 });
 
 document.getElementById("toTop").addEventListener("click", function () {
-  // document.body.scrollTop = 0;
-  // document.documentElement.scrollTop = 0;
-  window.scrollTo({top: 0, behavior: 'smooth'});
+  scrollToTop();
 });
+
+const scrollToTop = () => {
+  const c = document.documentElement.scrollTop || document.body.scrollTop;
+  if (c > 0) {
+    window.requestAnimationFrame(scrollToTop);
+    window.scrollTo(0, c - c / 2);
+  }
+};
 
 
 
