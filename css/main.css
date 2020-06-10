@@ -203,11 +203,6 @@ textarea {
   clear: both;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
@@ -1209,7 +1204,7 @@ textarea {
 }
 
 .container--tabs .nav-tabs > li {
-  margin: 10px 50px 40px 50px;
+  margin: 10px 50px 50px 50px;
 }
 
 .container--tabs .nav-tabs > li > a {
@@ -1275,6 +1270,9 @@ textarea {
 
 .category--container span {
   font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1;
 }
 
 .category--container table th {
@@ -1289,7 +1287,7 @@ textarea {
 }
 
 .category--container table td {
-  line-height: 28px;
+  line-height: 1.3;
   padding: 5px 0 5px 0;
 }
 
@@ -1298,30 +1296,13 @@ textarea {
   text-align: right;
   vertical-align: bottom;
   line-height: 1;
-  width: 100px;
+  width: auto;
 }
-
-.category--container table th:nth-child(3) {
-  font-size: 16px;
-  text-align: center;
-  vertical-align: bottom;
-  line-height: 1;
-  width: 100px;
-}
-
-
 
 .category--container table td:nth-child(2) {
   text-align: right;
   vertical-align: bottom;
-  width: 100px;
-}
-
-.category--container table td:nth-child(3) {
-  text-align: right;
-  vertical-align: bottom;
-  width: 100px;
-
+  width: 70px;
 }
 
 .serpiente {
@@ -1331,6 +1312,64 @@ textarea {
   padding-top: 85px;
 }
 
+.no-mt {
+  margin-top: 0;
+}
 
+.no-padding-x {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.to-top {
+  width: 50px;
+  height: 50px;
+  background: url('/img/top.svg') bottom no-repeat;
+  background-size: contain;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 640px) {
+
+  .container--tabs .nav-tabs > li {
+    margin: 0 15px 30px 15px;
+    font-size: 16px;
+  }
+
+  .container--tabs .nav-tabs {
+    margin-bottom: 20px;
+  }
+
+  .no-letter-spacing {
+    letter-spacing: 0;
+  }
+
+  .category--container table {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+
+  .category--container span {
+    font-size: 14px;
+  }
+
+}
 
 
