@@ -301,8 +301,8 @@ textarea {
   max-width: 1180px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .row {
@@ -1199,7 +1199,7 @@ textarea {
 }
 
 .container--tabs {
-  margin: 3.12em 0 0 0;
+  margin: 40px 0 0 0;
 }
 
 .container--tabs .nav-tabs {
@@ -1209,7 +1209,7 @@ textarea {
 }
 
 .container--tabs .nav-tabs > li {
-  margin: 0 3.12em 3.12em 3.12em;
+  margin: 10px 50px 40px 50px;
 }
 
 .container--tabs .nav-tabs > li > a {
@@ -1248,12 +1248,13 @@ textarea {
 
 .category--container {
   max-width: 455px;
-  margin: 0 auto 80px auto;
+  margin: 0 auto;
 }
 
 .category--title {
   font-family: 'KGBrokenVesselsSketch', sans-serif;
   font-size: 2em;
+  margin: 80px 0 0 0;
 }
 
 .category--title h2 {
