@@ -1321,9 +1321,10 @@ textarea {
 
 .greca-uno {
   background: url('/img/greca-01.svg') top no-repeat;
-  height: 50px;
+  height: 60px;
   background-size: contain;
   margin-top: 53px;
+  margin-left: 92px;
 }
 
 .no-mt {
