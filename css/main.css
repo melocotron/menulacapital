@@ -1313,6 +1313,20 @@ textarea {
   padding-top: 85px;
 }
 
+.agave {
+  background: url('/img/agave.svg') bottom no-repeat;
+  height: 40px;
+  background-size: contain;
+  padding-top: 85px;
+}
+
+.greca-uno {
+  background: url('/img/greca-01.svg') top no-repeat;
+  height: 58px;
+  background-size: contain;
+  margin-top: 53px;
+}
+
 .no-mt {
   margin-top: 0;
 }
