@@ -1315,16 +1315,23 @@ textarea {
 
 .agave {
   background: url('/img/agave.svg') top no-repeat;
-  height: 195px;
-  background-size: contain;;
+  height: 229px;
+  width: 282px;
+  left: 82px;
+  background-size: contain;
+  position: absolute;
 }
 
 .greca-uno {
   background: url('/img/greca-01.svg') top no-repeat;
   height: 60px;
   background-size: contain;
-  margin-top: 53px;
-  margin-left: 92px;
+  margin-top: 55px;
+  margin-right: 70px;
+}
+
+.p-relative {
+  position: relative;
 }
 
 .no-mt {
