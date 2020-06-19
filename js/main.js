@@ -26,7 +26,7 @@ window.addEventListener("load", function () {
 
 });
 
-document.querySelector(".to-top").addEventListener("click", function () {
+document.querySelector(".to-top-bebidas").addEventListener("click", function () {
   scrollToTop();
 });
 
@@ -34,10 +34,13 @@ document.querySelector(".to-top-alimentos").addEventListener("click", function (
   scrollToTop();
 });
 
+document.querySelector(".to-top-postres").addEventListener("click", function () {
+  scrollToTop();
+});
+
 const scrollToTop = () => {
   const c = document.documentElement.scrollTop || document.body.scrollTop;
   if (c > 0) {
-    console.log('to tp');
     window.requestAnimationFrame(scrollToTop);
     window.scrollTo(0, c - c / 2);
   }
