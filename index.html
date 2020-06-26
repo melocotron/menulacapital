@@ -29,14 +29,14 @@
     <section class="row">
       <div class="col-xs-12">
         <ul class="nav nav-tabs row center-xs">
-          <li class="active"><a href="#tab-1">BEBIDAS</a></li>
-          <li class=""><a href="#tab-2">ALIMENTOS</a></li>
+          <li class=""><a href="#tab-1">BEBIDAS</a></li>
+          <li class="active"><a href="#tab-2">ALIMENTOS</a></li>
           <li class=""><a href="#tab-3">POSTRES</a></li>
         </ul>
         <div class="tab-content">
 
           <!-- bebidas -->
-          <div id="tab-1" class="tab-pane active">
+          <div id="tab-1" class="tab-pane">
             <!-- solo desktop -->
             <div class="hide-mobile">
               <div class="row">
@@ -755,14 +755,23 @@
                 </div>
               </div>
             </div>
-
+            <div class="row center-xs mt-35">
+              <p>
+                1oz equivale 29.57ml
+                <br>Los precios incluyen IVA.
+                <br>La propina no es obligatoria.
+                <br>No tenemos consumo mínimo.
+                <br>Las Botellas de Mezcal incluyen naranjas ilimitadas.
+<!--                <br>*Formas de pago: Efectivo, Tarjetas de crédito, débito y American Express.<br>-->
+              </p>
+            </div>
             <div class="row center-xs mt-35">
               <div class="to-top to-top-bebidas"></div>
             </div>
           </div>
 
           <!-- alimentos -->
-          <div id="tab-2" class="tab-pane">
+          <div id="tab-2" class="tab-pane active">
             <div class="row">
               <div class="col-xs-12 no-padding-x">
                 <div class="category--container">
@@ -1069,9 +1078,9 @@
                             </tr>
                             </tbody>
                           </table>
-                          <!--<div class="hide-mobile">
-                            <p>imagen</p>
-                          </div>-->
+                          <div class="mt-35">
+                            <p>&#9733; Solo Condesa</p>
+                         </div>
                         </div>
                       </div>
                       <!-- platos fuertes -->
@@ -1123,14 +1132,29 @@
                 </div>
               </div>
             </div>
+            <div class="row center-xs mt-35 chef-section hide-mobile">
+              <div class="serpiente-larga"></div>
+              <div class="chef-text">Chef Óscar Sánchez</div>
+            </div>
+            <div class="row center-xs mt-35 chef-section hide-desktop">
+              <div class="chef-text">Chef Óscar Sánchez</div>
+              <div class="serpiente-larga"></div>
+            </div>
 
+            <div class="row center-xs mt-35">
+              <p>
+                Los gramajes son aproximados.
+                <br>Consumir alimentos crudos aumenta el riesgo a la salud.
+                <!--                <br>*Formas de pago: Efectivo, Tarjetas de crédito, débito y American Express.<br>-->
+              </p>
+            </div>
             <div class="row center-xs mt-35">
               <div class="to-top to-top-alimentos"></div>
             </div>
           </div>
 
           <!-- postres -->
-          <div id="tab-3" class="tab-pane">
+          <div id="tab-3" class="tab-pane ">
             <div class="row">
               <div class="col-xs-12 no-padding-x">
                 <div class="category--container">
@@ -1238,7 +1262,7 @@
                           <td>$85</td>
                         </tr>
                         <tr>
-                          <td>Mazapán, Vainilla, Turrón, CAjeta, Chocolate</td>
+                          <td>Mazapán, Vainilla, Turrón, Cajeta, Chocolate</td>
                           <td></td>
                         </tr>
                         </tbody>
@@ -1298,11 +1322,11 @@
                           <td>$50</td>
                         </tr>
                         <tr>
-                          <td>Expresso <span>1.5oz</span></td>
+                          <td>Espresso <span>1.5oz</span></td>
                           <td>$50</td>
                         </tr>
                         <tr>
-                          <td>Expresso Doble <span>3.5oz</span></td>
+                          <td>Espresso Doble <span>3.5oz</span></td>
                           <td>$75</td>
                         </tr>
                         <tr>
@@ -1336,13 +1360,17 @@
                 <div class="row">
                   <div class="col-xs-12 col-md-6">
                     <div class="category--container">
-                      <table>
+                      <table class="tes-table">
                         <tbody>
                         <tr>
                           <td class="sub-tes">Té Blanco</td>
                         </tr>
                         <tr>
-                          <td>Fresa y Albahaca<br>Muy suave. Descafeinado</td>
+                          <td class="item-te">
+                           Fresa y Albahaca
+                            <br>
+                            <span>Muy suave. Descafeinado</span>
+                          </td>
                         </tr>
                         <tr>
                           <td></td>
@@ -1351,25 +1379,31 @@
                           <td class="sub-tes">TÉ VERDE</td>
                         </tr>
                         <tr>
-                          <td>Manzanilla - Lavanda<br>Mezcla de la casa. Flores de<br>Manzanilla y Lavanda Tradicional</td>
+                          <td class="item-te">
+                            Manzanilla - Lavanda
+                            <span>
+                              <br>Mezcla de la casa. Flores de
+                              <br>Manzanilla y Lavanda Tradicional
+                            </span>
+                          </td>
                         </tr>
                         <tr>
                           <td></td>
                         </tr>
                         <tr>
-                          <td class="sub-tes">Perlas de Jazmín</td>
-                        </tr>
-                        <tr>
-                          <td>Racimos enrollados individualmente</td>
+                          <td class="item-te">
+                            Perlas de Jazmín<br>
+                            <span>Racimos enrollados individualmente</span>
+                          </td>
                         </tr>
                         <tr>
                           <td></td>
                         </tr>
                         <tr>
-                          <td class="sub-tes">Granada - Frambuesa</td>
-                        </tr>
-                        <tr>
-                          <td>Perfecto Maridaje con Postres<br>de Chocolate</td>
+                          <td class="item-te">
+                            Granada - Frambuesa<br>
+                            <span>Perfecto Maridaje con Postres de Chocolate</span>
+                          </td>
                         </tr>
                         <tr>
                           <td></td>
@@ -1378,7 +1412,10 @@
                           <td class="sub-tes">TÉ ROJO</td>
                         </tr>
                         <tr>
-                          <td>Pu-erh Frutos Rojos<br>Intenso sabor a Frutos del Bosque</td>
+                          <td class="item-te">
+                            Pu-erh Frutos Rojos<br>
+                            <span>Intenso sabor a Frutos del Bosque</span>
+                          </td>
                         </tr>
                         </tbody>
                       </table>
@@ -1386,22 +1423,23 @@
                   </div>
                   <div class="col-xs-12 col-md-6">
                     <div class="category--container">
-                      <table>
+                      <table class="tes-table">
                         <tbody>
                         <tr>
                           <td class="sub-tes">TÉ NEGRO</td>
                         </tr>
                         <tr>
-                          <td>Fruta de la pasión<br>Maracuyá originaria<br>del Amazonas</td>
+                          <td class="item-te">
+                            Fruta de la pasión
+                            <br>
+                            <span>Maracuyá originaria<br>del Amazonas</span>
+                          </td>
                         </tr>
                         <tr>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td class="sub-tes">Indian Chai</td>
-                        </tr>
-                        <tr>
-                          <td>Darjeeling, Jengibre, Canela,<br>Cardamomo y Pimienta roja</td>
+                          <td class="item-te">
+                            Indian Chai<br>
+                            <span>Darjeeling, Jengibre, Canela,<br>Cardamomo y Pimienta roja</span>
+                          </td>
                         </tr>
                         <tr>
                           <td></td>
@@ -1410,25 +1448,28 @@
                           <td class="sub-tes">TISIANAS</td>
                         </tr>
                         <tr>
-                          <td>Bora Bora<br>Maracuyá, Jengibre,<br>Frambuesa y Limón</td>
+                          <td class="item-te">
+                            Bora Bora<br>
+                            <span>Maracuyá, Jengibre,<br>Frambuesa y Limón</span>
+                          </td>
                         </tr>
                         <tr>
                           <td></td>
                         </tr>
                         <tr>
-                          <td class="sub-tes">Dragon Blend</td>
-                        </tr>
-                        <tr>
-                          <td>Exótico y agradable sabo<br>a Pitahaya</td>
+                          <td class="item-te">
+                            Dragon Blend<br>
+                            <span>Exótico y agradable sabor<br>a Pitahaya</span>
+                          </td>
                         </tr>
                         <tr>
                           <td></td>
                         </tr>
                         <tr>
-                          <td class="sub-tes">Rooibos Peach Melba</td>
-                        </tr>
-                        <tr>
-                          <td>Dulce sabor de Durazno</td>
+                          <td class="item-te">
+                            Rooibos Peach Melba<br>
+                            <span>Dulce sabor de Durazno</span>
+                          </td>
                         </tr>
                         </tbody>
                       </table>
@@ -1436,6 +1477,12 @@
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="row center-xs mt-35">
+              <p>
+                Formas de pago: Efectivo, Tarjetas de Crédito, Débito y American Express
+                <!--                <br>*Formas de pago: Efectivo, Tarjetas de crédito, débito y American Express.<br>-->
+              </p>
             </div>
             <div class="row center-xs mt-35">
               <div class="to-top to-top-postres"></div>

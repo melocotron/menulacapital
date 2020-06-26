@@ -1313,6 +1313,19 @@ textarea {
   padding-top: 85px;
 }
 
+.serpiente-larga {
+  background: url('/img/serpiente-larga.svg') bottom no-repeat;
+  width: 628px;
+  background-size: contain;
+  padding: 50px 0 10px 0;
+}
+
+.chef-text {
+  font-weight: bold;
+  margin: 35px 0 0 30px;
+  font-size: 22px;
+}
+
 .agave {
   background: url('/img/agave.svg') top no-repeat;
   height: 229px;
@@ -1372,6 +1385,27 @@ textarea {
   animation: float 3s ease-in-out infinite;
 }
 
+.disclaimer {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.small-te {
+  font-size: 10px;
+}
+
+.sub-te {
+  line-height: 0.9;
+  font-size: 20px;
+}
+
+.item-te {
+  line-height: 0.9 !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -1403,9 +1437,18 @@ textarea {
   .item-one:nth-of-type(1) { order: 2; }
   .item-one:nth-of-type(2) { order: 1; }
 
-
   .sub-cafe {
     padding-top: 38px !important;
+  }
+
+  .serpiente-larga {
+    width: 100%;
+    margin: 0;
+  }
+
+  .chef-text {
+    font-weight: bold;
+    margin: 65px 0 0 0;
   }
 }
 
