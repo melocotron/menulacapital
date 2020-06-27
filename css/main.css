@@ -1367,6 +1367,10 @@ textarea {
   margin: 35px 0 15px 0;
 }
 
+.mt-45 {
+  margin: 65px 0 15px 0;
+}
+
 .no-padding-x {
   padding-left: 0;
   padding-right: 0;
@@ -1405,6 +1409,25 @@ textarea {
   font-weight: bold;
 }
 
+.star-before:before {
+  display: inline-flex;
+  content: ' ';
+  background-image: url('/img/star.svg');
+  background-size: 20px 20px;
+  height: 20px;
+  width: 20px;
+  margin: 0 10px 0 0;
+}
+
+.star-after:after {
+  display: inline-flex;
+  content: ' ';
+  background-image: url('/img/star.svg');
+  background-size: 20px 20px;
+  height: 20px;
+  width: 20px;
+  margin: 0 0 0 5px;
+}
 
 @keyframes float {
   0% {
