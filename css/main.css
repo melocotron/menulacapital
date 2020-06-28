@@ -1510,6 +1510,11 @@ textarea {
     bottom: 58px;
     font-size: 22px;
   }
+
+  .tabla-postres td {
+    font-size: 25px;
+    padding: 10px 0 5px 0 !important;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 640px) {
