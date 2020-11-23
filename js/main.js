@@ -38,6 +38,11 @@ document.querySelector(".to-top-postres").addEventListener("click", function () 
   scrollToTop();
 });
 
+document.querySelector(".to-top-desayunos").addEventListener("click", function () {
+  scrollToTop();
+});
+
+
 const scrollToTop = () => {
   const c = document.documentElement.scrollTop || document.body.scrollTop;
   if (c > 0) {
