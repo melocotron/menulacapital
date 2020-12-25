@@ -6,3 +6,5 @@ dist
 .cache
 
 format.html
+.idea
+.idea/dictionaries/uriar.xml
