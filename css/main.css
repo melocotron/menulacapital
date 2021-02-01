@@ -1450,6 +1450,14 @@ textarea {
   font-size: 34px !important;
 }
 
+.title-degus {
+  font-size: 22px !important;
+  width: 21% !important;
+  vertical-align: baseline !important;
+  letter-spacing: 0.05em !important;
+  font-weight: normal !important;
+}
+
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -1547,6 +1555,11 @@ textarea {
 
   .mt-mobile {
     margin-top: 80px;
+  }
+
+  .title-degus {
+    font-size: 20px !important;
+    letter-spacing: 0 !important;
   }
 
 
