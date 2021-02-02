@@ -1336,6 +1336,7 @@ textarea {
   height: 229px;
   width: 282px;
   left: 82px;
+  top: 75px;
   background-size: contain;
   position: absolute;
 }
@@ -1478,6 +1479,12 @@ textarea {
   display: none;
 }
 
+@media screen and (min-width:641px) {
+  .category--container table th.pt-80__md {
+    padding: 80px 0 60px 0;
+  }
+}
+
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -1562,7 +1569,7 @@ textarea {
     letter-spacing: 0 !important;
   }
 
-
 }
+
 
 
