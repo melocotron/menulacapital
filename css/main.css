@@ -1264,7 +1264,8 @@ textarea {
   font-weight: normal;
 }
 
-.category--container table {
+.category--container table
+{
   width: 100%;
   font-size: 22px;
   line-height: 32px;
@@ -1276,6 +1277,15 @@ textarea {
   font-weight: normal;
   letter-spacing: 0;
   line-height: 1;
+}
+
+.table-text
+{
+  width: max-content;
+  display: inline;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
 }
 
 .category--container table th {
@@ -1309,14 +1319,14 @@ textarea {
 }
 
 .serpiente {
-  background: url('/img/serpiente.svg') bottom no-repeat;
+  background: url('../img/serpiente.svg') bottom no-repeat;
   height: 40px;
   background-size: contain;
   padding-top: 85px;
 }
 
 .serpiente-larga {
-  background: url('/img/serpiente-larga.svg') bottom no-repeat;
+  background: url('../img/serpiente-larga.svg') bottom no-repeat;
   width: 815px;
   background-size: contain;
   padding: 59px 0 13px 0;
@@ -1332,17 +1342,17 @@ textarea {
 }
 
 .agave {
-  background: url('/img/agave.svg') top no-repeat;
-  height: 229px;
-  width: 282px;
+  background: url('../img/agave.svg') top no-repeat;
+  height: 174px;
+  width: 275px;
   left: 82px;
-  top: 75px;
+  top: 0px;
   background-size: contain;
   position: absolute;
 }
 
 .greca-uno {
-  background: url('/img/greca-01.svg') top no-repeat;
+  background: url('../img/greca-01.svg') top no-repeat;
   height: 60px;
   background-size: contain;
   margin-top: 55px;
@@ -1397,7 +1407,7 @@ textarea {
 .to-top {
   width: 50px;
   height: 50px;
-  background: url('/img/top.svg') bottom no-repeat;
+  background: url('../img/top.svg') bottom no-repeat;
   background-size: contain;
   transform: translatey(0px);
   animation: float 3s ease-in-out infinite;
@@ -1426,7 +1436,7 @@ textarea {
 .star-before:before {
   display: inline-flex;
   content: ' ';
-  background-image: url('/img/star.svg');
+  background-image: url('../img/star.svg');
   background-size: 16px 16px;
   height: 16px;
   width: 16px;
@@ -1436,7 +1446,7 @@ textarea {
 .star-after:after {
   display: inline-flex;
   content: ' ';
-  background-image: url('/img/star.svg');
+  background-image: url('../img/star.svg');
   background-size: 16px 16px;
   height: 16px;
   width: 16px;
@@ -1516,7 +1526,7 @@ textarea {
   }
 
   .serpiente-corta {
-    background: url('/img/serpiente-corta.svg') bottom no-repeat;
+    background: url('../img/serpiente-corta.svg') bottom no-repeat;
     width: 100%;
     background-size: contain;
     padding: 59px 0 10px 0;

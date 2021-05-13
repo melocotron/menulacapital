@@ -47,13 +47,14 @@
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 
+
   <meta content="#000000" name="theme-color">
 </head>
 
 <body>
 
 <!-- Add your site or application content here -->
-<div class="container-fluid scrolling-box">
+<div class="container-fluid scrolling-box" id="app">
   <div class="container--tabs">
     <section class="row">
       <div class="col-xs-12">
@@ -507,13 +508,14 @@
             <div class="row center-xs mt-35">
               <p>* Sólo en temporada</p>
             </div>
-            <div class="row center-xs mt-35">
-              <div class="to-top to-top-desayunos"></div>
-            </div>
+<!--            <div class="row center-xs mt-35">-->
+<!--              <div class="to-top to-top-desayunos"></div>-->
+<!--            </div>-->
           </div>
 
           <!-- bebidas -->
           <div class="tab-pane" id="tab-1">
+
             <!-- solo desktop -->
             <div class="hide-mobile">
               <div class="row">
@@ -536,29 +538,9 @@
                           </tr>
                           </thead>
                           <tbody>
-                          <tr>
-                            <td>El Jarrito<br><span>El de la Casa, con Mango y Cítricos</span></td>
-                            <td>$ 180</td>
-                          </tr>
-                          <tr>
-                            <td>Oaxaca 86<br><span>Nuestro Mojito de Mezcal con Pepino</span></td>
-                            <td>$ 170</td>
-                          </tr>
-                          <tr>
-                            <td>María Felix<br><span>Mango, Chamoy y Mezcal</span></td>
-                            <td>$ 175</td>
-                          </tr>
-                          <tr>
-                            <td>Frozen de Tamarindo<br><span>Con chile serrano</span></td>
-                            <td>$ 175</td>
-                          </tr>
-                          <tr>
-                            <td>Mezcaltini de Pepino<br><span>Escarchado con Sal de Gusano</span></td>
-                            <td>$ 170</td>
-                          </tr>
-                          <tr>
-                            <td>Jamaica Tixxi<br><span>Lima, Miel de Agave y Sal de Gusano</span></td>
-                            <td>$ 170</td>
+                          <tr v-for="coctelMezcal in coctelesMezcales">
+                            <td>{{coctelMezcal.name}}<br><span>{{coctelMezcal.name_description}}</span></td>
+                            <td>$ {{coctelMezcal.price}}</td>
                           </tr>
                           </tbody>
                         </table>
@@ -570,13 +552,9 @@
                           </tr>
                           </thead>
                           <tbody>
-                          <tr>
-                            <td>Horchata de Mamey<br><span>Hecha en casa con toque de Canela</span></td>
-                            <td>$ 170</td>
-                          </tr>
-                          <tr>
-                            <td>Quetzal<br><span>Con Frutos del Bosque</span></td>
-                            <td>$ 180</td>
+                          <tr v-for="coctelVodka in coctelesVodka">
+                            <td>{{coctelVodka.name}}<br><span>{{coctelVodka.name_description}}</span></td>
+                            <td>$ {{coctelVodka.price}}</td>
                           </tr>
                           </tbody>
                         </table>
@@ -602,35 +580,10 @@
                           </tr>
                           </thead>
                           <tbody>
-                          <tr>
-                            <td>Lychee</td>
-                            <td>$ 190</td>
+                          <tr v-for="coctelMartini in coctelesMartinis">
+                            <td>{{coctelMartini.name}}</td>
+                            <td>$ {{coctelMartini.price}}</td>
                           </tr>
-                          <tr>
-                            <td>Pepino</td>
-                            <td>$ 170</td>
-                          </tr>
-                          <tr>
-                            <td>Apple Martini</td>
-                            <td>$ 170</td>
-                          </tr>
-                          <tr>
-                            <td>Cosmopolitan</td>
-                            <td>$ 170</td>
-                          </tr>
-                          <tr>
-                            <td>Clásico Nacional</td>
-                            <td>$ 170</td>
-                          </tr>
-                          <tr>
-                            <td>Clásico Importado</td>
-                            <td>$ 190</td>
-                          </tr>
-                          <tr>
-                            <td>Clásico Premium</td>
-                            <td>$ 230</td>
-                          </tr>
-                          </tbody>
                         </table>
                       </div>
                     </div>
@@ -644,17 +597,9 @@
                           </tr>
                           </thead>
                           <tbody>
-                          <tr>
-                            <td>Gin La Capital<br><span>Tanqueray Rangpur, Cítricos y Romero</span></td>
-                            <td>$ 190</td>
-                          </tr>
-                          <tr>
-                            <td>Alebrije<br><span>Fruta de la Pasión y Granada</span></td>
-                            <td>$ 180</td>
-                          </tr>
-                          <tr>
-                            <td>Hada Verde<br><span>Albahaca y Limón Amarillo</span></td>
-                            <td>$ 175</td>
+                          <tr v-for="coctelGinebra in coctelesGinebra">
+                            <td>{{coctelGinebra.name}}<br><span>{{coctelGinebra.name_description}}</span></td>
+                            <td>$ {{coctelGinebra.price}}</td>
                           </tr>
                           </tbody>
                         </table>
@@ -667,7 +612,7 @@
                           </thead>
                           <tbody>
                           <tr>
-                            <td>Margarita La Capital<br><span>Don Julio Blanco, XILA y Toronja</span></td>
+                            <td>Margarita La Capital<br><span>Con Toronja y Licor de Agave de 7 notas</span></td>
                             <td>$ 195</td>
                           </tr>
                           </tbody>
@@ -681,13 +626,12 @@
                           </thead>
                           <tbody>
                           <tr>
-                            <td>Acapulco Tropical<br><span>¡Súper fresco!</span></td>
+                            <td>Acapulco Tropical<br><span>Súper fresco!!!</span></td>
                             <td>$ 185</td>
                           </tr>
                           </tbody>
                         </table>
                         <!--                      ron-->
-                        <!--
                         <table>
                           <thead>
                           <tr>
@@ -697,11 +641,10 @@
                           <tbody>
                           <tr>
                             <td>Mojito Takob<br><span>Con Guanábana y Hierbabuena</span></td>
-                            <td>$ 175</td>
+                            <td>$ 190</td>
                           </tr>
                           </tbody>
                         </table>
-                        -->
                         <!--                      clásicos -->
                         <table>
                           <thead>
@@ -710,25 +653,9 @@
                           </tr>
                           </thead>
                           <tbody>
-                          <tr>
-                            <td>Mojito</td>
-                            <td>$ 170</td>
-                          </tr>
-                          <tr>
-                            <td>Margarita</td>
-                            <td>$ 180</td>
-                          </tr>
-                          <tr>
-                            <td>Margarita de Sabores</td>
-                            <td>$ 185</td>
-                          </tr>
-                          <tr>
-                            <td>Piña Colada</td>
-                            <td>$ 170</td>
-                          </tr>
-                          <tr>
-                            <td>Aperol Spritz</td>
-                            <td>$ 195</td>
+                          <tr v-for="coctelClasico in coctelesClasicos">
+                            <td>{{coctelClasico.name}}</td>
+                            <td>$ {{coctelClasico.price}}</td>
                           </tr>
                           </tbody>
                         </table>
@@ -741,6 +668,7 @@
                 </div>
               </div>
             </div>
+            <!-- fin solo desktop -->
 
             <!-- solo mobil -->
             <div class="row hide-desktop">
@@ -762,29 +690,9 @@
                       </tr>
                       </thead>
                       <tbody>
-                      <tr>
-                        <td>El Jarrito<br><span>El de la Casa, con Mango y Cítricos</span></td>
-                        <td>$ 180</td>
-                      </tr>
-                      <tr>
-                        <td>Oaxaca 86<br><span>Nuestro Mojito de Mezcal con Pepino</span></td>
-                        <td>$ 170</td>
-                      </tr>
-                      <tr>
-                        <td>María Felix<br><span>Mango, Chamoy y Mezcal</span></td>
-                        <td>$ 175</td>
-                      </tr>
-                      <tr>
-                        <td>Frozen de Tamarindo<br><span>Con chile serrano</span></td>
-                        <td>$ 175</td>
-                      </tr>
-                      <tr>
-                        <td>Mezcaltini de Pepino<br><span>Escarchado con Sal de Gusano</span></td>
-                        <td>$ 170</td>
-                      </tr>
-                      <tr>
-                        <td>Jamaica Tixxi<br><span>Lima, Miel de Agave y Sal de Gusano</span></td>
-                        <td>$ 170</td>
+                      <tr v-for="coctelMezcal in coctelesMezcales">
+                        <td>{{coctelMezcal.name}}<br><span>{{coctelMezcal.name_description}}</span></td>
+                        <td>$ {{coctelMezcal.price}}</td>
                       </tr>
                       </tbody>
                     </table>
@@ -796,17 +704,9 @@
                       </tr>
                       </thead>
                       <tbody>
-                      <tr>
-                        <td>Gin La Capital<br><span>Tanqueray Rangpur, Cítricos y Romero</span></td>
-                        <td>$ 190</td>
-                      </tr>
-                      <tr>
-                        <td>Alebrije<br><span>Fruta de la Pasión y Granada</span></td>
-                        <td>$ 180</td>
-                      </tr>
-                      <tr>
-                        <td>Hada Verde<br><span>Albahaca y Limón Amarillo</span></td>
-                        <td>$ 175</td>
+                      <tr v-for="coctelGinebra in coctelesGinebra">
+                        <td>{{coctelGinebra.name}}<br><span>{{coctelGinebra.name_description}}</span></td>
+                        <td>$ {{coctelGinebra.price}}</td>
                       </tr>
                       </tbody>
                     </table>
@@ -818,13 +718,9 @@
                       </tr>
                       </thead>
                       <tbody>
-                      <tr>
-                        <td>Horchata de Mamey<br><span>Hecha en casa con toque de Canela</span></td>
-                        <td>$ 170</td>
-                      </tr>
-                      <tr>
-                        <td>Quetzal<br><span>Con Frutos del Bosque</span></td>
-                        <td>$ 180</td>
+                      <tr v-for="coctelVodka in coctelesVodka">
+                        <td>{{coctelVodka.name}}<br><span>{{coctelVodka.name_description}}</span></td>
+                        <td>$ {{coctelVodka.price}}</td>
                       </tr>
                       </tbody>
                     </table>
@@ -837,7 +733,7 @@
                       </thead>
                       <tbody>
                       <tr>
-                        <td>Margarita La Capital<br><span>Don Julio Blanco, XILA y Toronja</span></td>
+                        <td>Margarita La Capital<br><span>Con Toronja y Licor de Agave de 7 notas</span></td>
                         <td>$ 195</td>
                       </tr>
                       </tbody>
@@ -865,7 +761,7 @@
                       </thead>
                       <tbody>
                       <tr>
-                        <td>Acapulco Tropical<br><span>¡Súper fresco!</span></td>
+                        <td>Acapulco Tropical<br><span>Súper fresco!!!</span></td>
                         <td>$ 185</td>
                       </tr>
                       </tbody>
@@ -880,7 +776,7 @@
                       <tbody>
                       <tr>
                         <td>Mojito Takob<br><span>Con Guanábana y Hierbabuena</span></td>
-                        <td>$ 185</td>
+                        <td>$ 190</td>
                       </tr>
                       </tbody>
                     </table>
@@ -892,33 +788,9 @@
                       </tr>
                       </thead>
                       <tbody>
-                      <tr>
-                        <td>Lychee</td>
-                        <td>$ 190</td>
-                      </tr>
-                      <tr>
-                        <td>Pepino</td>
-                        <td>$ 170</td>
-                      </tr>
-                      <tr>
-                        <td>Apple Martini</td>
-                        <td>$ 170</td>
-                      </tr>
-                      <tr>
-                        <td>Cosmopolitan</td>
-                        <td>$ 170</td>
-                      </tr>
-                      <tr>
-                        <td>Clásico Nacional</td>
-                        <td>$ 170</td>
-                      </tr>
-                      <tr>
-                        <td>Clásico Importado</td>
-                        <td>$ 190</td>
-                      </tr>
-                      <tr>
-                        <td>Clásico Premium</td>
-                        <td>$ 230</td>
+                      <tr v-for="coctelMartini in coctelesMartinis">
+                        <td>{{coctelMartini.name}}</td>
+                        <td>$ {{coctelMartini.price}}</td>
                       </tr>
                       </tbody>
                     </table>
@@ -930,25 +802,9 @@
                       </tr>
                       </thead>
                       <tbody>
-                      <tr>
-                        <td>Mojito</td>
-                        <td>$ 170</td>
-                      </tr>
-                      <tr>
-                        <td>Margarita</td>
-                        <td>$ 180</td>
-                      </tr>
-                      <tr>
-                        <td>Margarita de Sabores</td>
-                        <td>$ 185</td>
-                      </tr>
-                      <tr>
-                        <td>Piña Colada</td>
-                        <td>$ 170</td>
-                      </tr>
-                      <tr>
-                        <td>Aperol Spritz</td>
-                        <td>$ 195</td>
+                      <tr v-for="coctelClasico in coctelesClasicos">
+                        <td>{{coctelClasico.name}}</td>
+                        <td>$ {{coctelClasico.price}}</td>
                       </tr>
                       </tbody>
                     </table>
@@ -956,6 +812,7 @@
                 </div>
               </div>
             </div>
+            <!-- fin solo mobil -->
 
             <div class="row">
               <div class="col-xs-12 col-md-6 no-padding-x">
@@ -972,33 +829,9 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                      <td>Corona <span>355ml</span></td>
-                      <td>$ 60</td>
-                    </tr>
-                    <tr>
-                      <td>Corona Light <span>355ml</span></td>
-                      <td>$ 60</td>
-                    </tr>
-                    <tr>
-                      <td>Pacífico <span>355ml</span></td>
-                      <td>$ 60</td>
-                    </tr>
-                    <tr>
-                      <td>Victoria <span>355ml</span></td>
-                      <td>$ 60</td>
-                    </tr>
-                    <tr>
-                      <td>Leon <span>355ml</span></td>
-                      <td>$ 60</td>
-                    </tr>
-                    <tr>
-                      <td>Modelo Especial <span>355ml</span></td>
-                      <td>$ 60</td>
-                    </tr>
-                    <tr>
-                      <td>Negra Modelo <span>355ml</span></td>
-                      <td>$ 60</td>
+                    <tr v-for="cervezaNacional in cervezasNacionales">
+                      <td>{{cervezaNacional.name}} <span>{{cervezaNacional.name_size}}</span></td>
+                      <td>$ {{cervezaNacional.price}}</td>
                     </tr>
                     </tbody>
                   </table>
@@ -1006,74 +839,50 @@
                   <table>
                     <thead>
                     <tr>
-                      <th colspan="2" class="pt-80__md">Artesanales</th>
+                      <th class="pt-80__md" colspan="2">Artesanales</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                      <td>Colimita <span>Lager 355 ml</span></td>
-                      <td>$ 98</td>
+                    <tr v-for="cervezaArtesanal in cervezasArtesanales">
+                      <td>{{cervezaArtesanal.name}} <span>{{cervezaArtesanal.name_size}}</span></td>
+                      <td>$ {{cervezaArtesanal.price}}</td>
                     </tr>
-                    <tr>
-                      <td>Ticus <span>Porter 355 ml</span></td>
-                      <td>$ 98</td>
-                    </tr>
+                    <!-- cervezas importadas-->
+                    <table>
+                      <thead>
+                      <tr>
+                        <th class="pt-80__md" colspan="2">Importadas</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr v-for="cervezaImportada in cervezasImportadas">
+                        <td>{{cervezaImportada.name}} <span>{{cervezaImportada.name_size}}</span></td>
+                        <td>$ {{cervezaImportada.price}}</td>
+                      </tr>
+                      </tbody>
+                    </table>
+                    <!-- cervezas combinadas-->
+                    <table>
+                      <thead>
+                      <tr>
+                        <th class="pt-80__md" colspan="2">Combinadas</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr v-for="cervezaCombinada in cervezasCombinadas">
+                        <td>{{cervezaCombinada.name}} <span>{{cervezaCombinada.name_size}}</span></td>
+                        <td>$ {{cervezaCombinada.price}}</td>
+                      </tr>
+                      </tbody>
+                    </table>
+                    <div class="greca-uno hide-mobile"></div>
+                    <!--                  <div class="serpiente"></div>-->
                     </tbody>
                   </table>
-                  <!-- cervezas importadas-->
-                  <table>
-                    <thead>
-                    <tr>
-                      <th colspan="2" class="pt-80__md">Importadas</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                      <td>Stella Artois <span>355 ml</span></td>
-                      <td>$ 85</td>
-                    </tr>
-                    <tr>
-                      <td>Amstel Ultra <span>355 ml</span></td>
-                      <td>$ 85</td>
-                    </tr>
-                    <tr>
-                      <td>Michelob Ultra <span>355 ml</span></td>
-                      <td>$ 85</td>
-                    </tr>
-                    </tbody>
-                  </table>
-                  <!-- cervezas combinadas-->
-                  <table>
-                    <thead>
-                    <tr>
-                      <th colspan="2" class="pt-80__md">Combinadas</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                      <td>Michelada</td>
-                      <td>$ 5</td>
-                    </tr>
-                    <tr>
-                      <td>Cubana</td>
-                      <td>$ 10</td>
-                    </tr>
-                    <tr>
-                      <td>Clamato</td>
-                      <td>$ 30</td>
-                    </tr>
-                    <tr>
-                      <td>Jugo de Tomate</td>
-                      <td>$ 25</td>
-                    </tr>
-                    </tbody>
-                  </table>
-                  <div class="greca-uno hide-mobile"></div>
-                  <!--                  <div class="serpiente"></div>-->
                 </div>
               </div>
               <div class="col-xs-12 col-md-6 no-padding-x">
-                <!--                Mezcales-->
+                <!-- Mezcales -->
                 <div class="category--container">
                   <div class="category--title">
                     <h2>MEZCALES</h2>
@@ -1087,7 +896,7 @@
                     </tr>
                     </tbody>
                   </table>
-                  <!--                  joven-->
+                  <!-- joven-->
                   <table>
                     <thead>
                     <tr>
@@ -1096,89 +905,13 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                      <td>Unión <span>750 ml</span></td>
-                      <td>$ 120</td>
-                    </tr>
-                    <tr>
-                      <td>BuenBicho <span>750 ml</span></td>
-                      <td>$ 125</td>
-                    </tr>
-                    <tr>
-                      <td>Bruxo Espadín <span class="regular-font">#</span>1<span> 750 ml</span></td>
-                      <td>$ 140</td>
-                    </tr>
-                    <tr>
-                      <td>Montelobos <span>750 ml</span></td>
-                      <td>$ 160</td>
-                    </tr>
-                    <tr>
-                      <td>Creyente Espadín <span>750 ml</span></td>
-                      <td>$ 165</td>
-                    </tr>
-                    <tr>
-                      <td>Meteoro <span>750 ml</span></td>
-                      <td>$ 175</td>
-                    </tr>
-                    <tr>
-                      <td>Amores <span>750 ml</span></td>
-                      <td>$ 170</td>
-                    </tr>
-                    <tr>
-                      <td>Nauyaca <span>750 ml</span></td>
-                      <td>$ 175</td>
-                    </tr>
-                    <tr>
-                      <td>Bruxo Pechuga <span class="regular-font">#</span>2 <span>750 ml</span></td>
-                      <td>$ 175</td>
-                    </tr>
-                    <tr>
-                      <td>Santa Predera <span>750 ml</span></td>
-                      <td>$ 175</td>
-                    </tr>
-                    <tr>
-                      <td>Unión “El Viejo” <span>750 ml</span></td>
-                      <td>$ 175</td>
-                    </tr>
-                    <tr>
-                      <td>Amores Cupreata <span>750 ml</span></td>
-                      <td>$ 185</td>
-                    </tr>
-                    <tr>
-                      <td>Espíritu Lauro <span>750 ml</span></td>
-                      <td>$ 190</td>
-                    </tr>
-                    <tr>
-                      <td>Marca Negra Espadín <span>750 ml</span></td>
-                      <td>$ 190</td>
-                    </tr>
-                    <tr>
-                      <td>Montelobos Ensamble <span>750 ml</span></td>
-                      <td>$ 210</td>
-                    </tr>
-                    <tr>
-                      <td>7 Misterios Dobayej <span>750 ml</span></td>
-                      <td>$ 210</td>
-                    </tr>
-                    <tr>
-                      <td>Bruxo Ensamble <span class="regular-font">#</span>4 <span>750 ml</span></td>
-                      <td>$ 210</td>
-                    </tr>
-                    <tr>
-                      <td>Marca Negra Tobalá <span>750 ml</span></td>
-                      <td>$ 290</td>
-                    </tr>
-                    <tr>
-                      <td>7 Misterios Mexicano <span>750 ml</span></td>
-                      <td>$ 290</td>
-                    </tr>
-                    <tr>
-                      <td>Creyente Tobalá <span>750 ml</span></td>
-                      <td>$ 275</td>
+                    <tr v-for="mezcalJoven in mezcalesJovenes">
+                      <td><div class="table-text" v-html="mezcalJoven.name"></div> <span>{{mezcalJoven.name_size}}</span></td>
+                      <td>$ {{mezcalJoven.price}}</td>
                     </tr>
                     </tbody>
                   </table>
-                  <!--                  reposado-->
+                  <!-- reposado -->
                   <table>
                     <thead>
                     <tr>
@@ -1186,13 +919,9 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                      <td>Amores <span>750 ml</span></td>
-                      <td>$ 175</td>
-                    </tr>
-                    <tr>
-                      <td>Espíritu Lauro <span>750 ml</span></td>
-                      <td>$ 210</td>
+                    <tr v-for="mezcalReposado in mezcalesReposados">
+                      <td>{{mezcalReposado.name}} <span>{{mezcalReposado.name_size}}</span></td>
+                      <td>$ {{mezcalReposado.price}}</td>
                     </tr>
                     </tbody>
                   </table>
@@ -1206,7 +935,7 @@
                     <tbody>
                     <tr>
                       <td>Contraluz <span>750 ml</span></td>
-                      <td>$ 210</td>
+                      <td>$ 185</td>
                     </tr>
                     </tbody>
                   </table>
@@ -1216,17 +945,15 @@
             </div>
             <div class="row center-xs mt-35">
               <p>
-                1oz equivale 29.57ml
-                <br>Los precios incluyen IVA.
-                <br>La propina no es obligatoria.
-                <br>No tenemos consumo mínimo.
-                <br>Las Botellas de Mezcal incluyen naranjas ilimitadas.
-                <!--                <br>*Formas de pago: Efectivo, Tarjetas de crédito, débito y American Express.<br>-->
+                No tenemos consumo mínimo. La propina es opcional mas no obligatoria. Los precios son en pesos
+                mexicanos e incluyen IVA.
+                <br>Formas de pago: Efectivo, Tarjetas de Crédito, Debito, American Express
+                <br>"1oz equivale a 29.57ml"
               </p>
             </div>
-            <div class="row center-xs mt-35">
-              <div class="to-top to-top-bebidas"></div>
-            </div>
+<!--            <div class="row center-xs mt-35">-->
+<!--              <div class="to-top to-top-bebidas"></div>-->
+<!--            </div>-->
           </div>
 
           <!-- comida y cena -->
@@ -1599,9 +1326,9 @@
               <div class="chef-text">Chef Óscar Sánchez</div>
               <div class="serpiente-corta"></div>
             </div>
-            <div class="row center-xs mt-35">
-              <div class="to-top to-top-alimentos"></div>
-            </div>
+<!--            <div class="row center-xs mt-35">-->
+<!--              <div class="to-top to-top-alimentos"></div>-->
+<!--            </div>-->
           </div>
 
           <!-- postres -->
@@ -1931,9 +1658,9 @@
                 <!--                <br>*Formas de pago: Efectivo, Tarjetas de crédito, débito y American Express.<br>-->
               </p>
             </div>
-            <div class="row center-xs mt-35">
-              <div class="to-top to-top-postres"></div>
-            </div>
+<!--            <div class="row center-xs mt-35">-->
+<!--              <div class="to-top to-top-postres"></div>-->
+<!--            </div>-->
           </div>
 
 
@@ -1942,9 +1669,11 @@
     </section>
   </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 
