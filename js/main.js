@@ -26,6 +26,7 @@ window.addEventListener("load", function () {
 
 });
 
+/*
 document.querySelector(".to-top-bebidas").addEventListener("click", function () {
   scrollToTop();
 });
@@ -49,4 +50,4 @@ const scrollToTop = () => {
     window.scrollTo(0, c - c / 2);
   }
 };
-
+*/
