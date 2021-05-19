@@ -1466,17 +1466,9 @@
                       <!--                      bebidas-->
                       <table>
                         <tbody>
-                        <tr>
-                          <td>Carajillo <span>1.5oz</span></td>
-                          <td>$170</td>
-                        </tr>
-                        <tr>
-                          <td>Carajillo de Baileys</td>
-                          <td>$175</td>
-                        </tr>
-                        <tr>
-                          <td>Frappé de Té Verde y Flores</td>
-                          <td>$90</td>
+                        <tr v-for="bebidaBebida in bebidasBebidas">
+                          <td>{{bebidaBebida.name}} <span>{{bebidaBebida.name_size}}</span></td>
+                          <td>$ {{bebidaBebida.price}}</td>
                         </tr>
                         </tbody>
                       </table>
@@ -1488,24 +1480,12 @@
                       <table>
                         <tbody>
                         <tr>
-                          <td class="sub-cafe">Café</td>
+                          <td class="sub-cafe">Café <span>Diemme</span></td>
                           <td></td>
                         </tr>
-                        <tr>
-                          <td>Americano <span>6oz</span></td>
-                          <td>$50</td>
-                        </tr>
-                        <tr>
-                          <td>Espresso <span>1.5oz</span></td>
-                          <td>$50</td>
-                        </tr>
-                        <tr>
-                          <td>Espresso Doble <span>3.5oz</span></td>
-                          <td>$75</td>
-                        </tr>
-                        <tr>
-                          <td>Capuchino <span>3.5oz</span></td>
-                          <td>$75</td>
+                        <tr v-for="bebidaCafe in bebidasCafe">
+                          <td>{{bebidaCafe.name}} <span>{{bebidaCafe.name_size}}</span></td>
+                          <td>$ {{bebidaCafe.price}}</td>
                         </tr>
                         </tbody>
                       </table>
@@ -1522,7 +1502,7 @@
                       <table>
                         <thead>
                         <tr>
-                          <th class="" colspan="2">Té $57</th>
+                          <th class="" colspan="2">Té $65</th>
                         </tr>
                         </thead>
                       </table>

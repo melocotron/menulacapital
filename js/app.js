@@ -888,6 +888,87 @@ new Vue({
           "price": 195,
           "price2": ""
         }
+      ],
+      bebidasBebidas: [
+        {
+          "id": 1,
+          "cat": "Postres",
+          "sub_cat": "Bebidas",
+          "fam": "Bebidas",
+          "fam_note": "",
+          "name": "Baileys Especial",
+          "name_size": "",
+          "name_note": "",
+          "price": 175
+        },
+        {
+          "id": 2,
+          "cat": "Postres",
+          "sub_cat": "Bebidas",
+          "fam": "Bebidas",
+          "fam_note": "",
+          "name": "Carajillo",
+          "name_size": "1.5oz",
+          "name_note": "",
+          "price": 175
+        },
+        {
+          "id": 3,
+          "cat": "Postres",
+          "sub_cat": "Bebidas",
+          "fam": "Bebidas",
+          "fam_note": "",
+          "name": "Frappé de Té Verde y Flores",
+          "name_size": "",
+          "name_note": "",
+          "price": 90
+        }
+      ],
+      bebidasCafe: [
+        {
+          "id": 4,
+          "cat": "Postres",
+          "sub_cat": "Bebidas",
+          "fam": "Cafe",
+          "fam_note": "",
+          "name": "Americano",
+          "name_size": "6oz",
+          "name_note": "",
+          "price": 60
+        },
+        {
+          "id": 5,
+          "cat": "Postres",
+          "sub_cat": "Bebidas",
+          "fam": "Cafe",
+          "fam_note": "",
+          "name": "Espresso",
+          "name_size": "1.5oz",
+          "name_note": "",
+          "price": 60
+        },
+        {
+          "id": 6,
+          "cat": "Postres",
+          "sub_cat": "Bebidas",
+          "fam": "Cafe",
+          "fam_note": "",
+          "name": "Espresso Doble",
+          "name_size": "3.5oz",
+          "name_note": "",
+          "price": 90
+        },
+        {
+          "id": 7,
+          "cat": "Postres",
+          "sub_cat": "Bebidas",
+          "fam": "Cafe",
+          "fam_note": "",
+          "name": "Capuchino",
+          "name_size": "3.5oz",
+          "name_note": "",
+          "price": 85
+        }
       ]
     }
   }
