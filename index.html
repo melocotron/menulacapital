@@ -1348,21 +1348,9 @@
                       <!--                      postres-->
                       <table class="tabla-postres">
                         <tbody>
-                        <tr>
-                          <td>Pastel de Chocolate y <br>chile ancho <span>(25 min)</span></td>
-                          <td>$155</td>
-                        </tr>
-                        <tr>
-                          <td>Crema frita de Mamey</td>
-                          <td>$145</td>
-                        </tr>
-                        <tr>
-                          <td>Chocolate en dos texturas</td>
-                          <td>$145</td>
-                        </tr>
-                        <tr>
-                          <td>Merengue con Fresas y crema de vainilla</td>
-                          <td>$145</td>
+                        <tr v-for="postrePostres in postresPostres.slice(0, 4)" >
+                          <td>{{ postrePostres.name }} <span>{{postrePostres.name_size}}</span></td>
+                          <td>$ {{ postrePostres.price }}</td>
                         </tr>
                         </tbody>
                       </table>
@@ -1373,17 +1361,9 @@
                       <!--                      postres-->
                       <table class="tabla-postres">
                         <tbody>
-                        <tr>
-                          <td>Pastel de Zanahoria</td>
-                          <td>$145</td>
-                        </tr>
-                        <tr>
-                          <td>Brûlée de Elote con <br>helado turrón</td>
-                          <td>$140</td>
-                        </tr>
-                        <tr>
-                          <td>Moldeado de Guanábana</td>
-                          <td>$130</td>
+                        <tr v-for="postrePostres in postresPostres.slice(4, 7)">
+                          <td>{{ postrePostres.name }}</td>
+                          <td>$ {{ postrePostres.price }}</td>
                         </tr>
                         </tbody>
                       </table>
@@ -1405,17 +1385,12 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                          <td>1 Bola</td>
-                          <td>$49</td>
+                        <tr v-for="postreNieves in postresNieves">
+                          <td>{{ postreNieves.name }}</td>
+                          <td>$ {{ postreNieves.price }}</td>
                         </tr>
                         <tr>
-                          <td>2 Bolas</td>
-                          <td>$85</td>
-                        </tr>
-                        <tr>
-                          <td>Mamey, Mango, Maracuyá, Frutos Rojos y Limón</td>
-                          <td></td>
+                          <td>Mamey, Mango, Maracuyá, Frutos rojos</td>
                         </tr>
                         </tbody>
                       </table>
@@ -1431,13 +1406,9 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                          <td>1 Bola</td>
-                          <td>$49</td>
-                        </tr>
-                        <tr>
-                          <td>2 Bolas</td>
-                          <td>$85</td>
+                        <tr v-for="postreHelados in postresHelados">
+                          <td>{{ postreHelados.name }}</td>
+                          <td>$ {{ postreHelados.price }}</td>
                         </tr>
                         <tr>
                           <td>Mazapán, Vainilla, Turrón, Cajeta, Chocolate</td>
