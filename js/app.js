@@ -969,6 +969,133 @@ new Vue({
           "name_note": "",
           "price": 85
         }
+      ],
+      postresPostres: [
+        {
+          "id": 1,
+          "cat": "Postres",
+          "sub_cat": "Postres",
+          "fam": "",
+          "fam_note": "",
+          "name": "Pastel de chocolate y chile ancho",
+          "name_size": "25min",
+          "name_note": "",
+          "price": 160
+        },
+        {
+          "id": 2,
+          "cat": "Postres",
+          "sub_cat": "Postres",
+          "fam": "",
+          "fam_note": "",
+          "name": "Crema Frita de mamey",
+          "name_size": "",
+          "name_note": "",
+          "price": 150
+        },
+        {
+          "id": 3,
+          "cat": "Postres",
+          "sub_cat": "Postres",
+          "fam": "",
+          "fam_note": "",
+          "name": "Chocolate en dos texturas",
+          "name_size": "",
+          "name_note": "",
+          "price": 150
+        },
+        {
+          "id": 4,
+          "cat": "Postres",
+          "sub_cat": "Postres",
+          "fam": "",
+          "fam_note": "",
+          "name": "Merengue con fresas y crema de vainilla",
+          "name_size": "",
+          "name_note": "",
+          "price": 150
+        },
+        {
+          "id": 5,
+          "cat": "Postres",
+          "sub_cat": "Postres",
+          "fam": "",
+          "fam_note": "",
+          "name": "Pastel de zanahoria",
+          "name_size": "",
+          "name_note": "",
+          "price": 150
+        },
+        {
+          "id": 6,
+          "cat": "Postres",
+          "sub_cat": "Postres",
+          "fam": "",
+          "fam_note": "",
+          "name": "Brûlée de elote con helado de turrón",
+          "name_size": "",
+          "name_note": "",
+          "price": 145
+        },
+        {
+          "id": 7,
+          "cat": "Postres",
+          "sub_cat": "Postres",
+          "fam": "",
+          "fam_note": "",
+          "name": "Moldeado de Guanábana",
+          "name_size": "",
+          "name_note": "",
+          "price": 140
+        }
+      ],
+      postresNieves: [
+        {
+          "id": 1,
+          "cat": "Postres",
+          "sub_cat": "Nieves",
+          "fam": "",
+          "fam_note": "",
+          "name": "1 Bola",
+          "name_size": "",
+          "name_note": "",
+          "price": 55
+        },
+        {
+          "id": 2,
+          "cat": "",
+          "sub_cat": "",
+          "fam": "",
+          "fam_note": "",
+          "name": "2 Bolas",
+          "name_size": "",
+          "name_note": "",
+          "price": 110
+        }
+      ],
+      postresHelados: [
+        {
+          "id": 1,
+          "cat": "Postres",
+          "sub_cat": "Helados",
+          "fam": "",
+          "fam_note": "",
+          "name": "1 Bola",
+          "name_size": "",
+          "name_note": "",
+          "price": 55
+        },
+        {
+          "id": 2,
+          "cat": "Postres",
+          "sub_cat": "Helados",
+          "fam": "",
+          "fam_note": "",
+          "name": "2 Bolas",
+          "name_size": "",
+          "name_note": "",
+          "price": 110
+        }
       ]
     }
   }
