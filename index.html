@@ -935,7 +935,7 @@
                     <tbody>
                     <tr>
                       <td>Contraluz <span>750 ml</span></td>
-                      <td>$ 185</td>
+                      <td>$ 270</td>
                     </tr>
                     </tbody>
                   </table>
@@ -974,25 +974,9 @@
                         <div class="category--container">
                           <table>
                             <tbody>
-                            <tr>
-                              <td>Tacos La Capital <span>(4pzas)</span></td>
-                              <td>$ 230</td>
-                            </tr>
-                            <tr>
-                              <td>Chips con Guacamole</td>
-                              <td>$ 185</td>
-                            </tr>
-                            <tr>
-                              <td>Tiradito de atún <span>160g</span></td>
-                              <td>$ 190</td>
-                            </tr>
-                            <tr>
-                              <td>Chicharrón de pescado <span>300g</span></td>
-                              <td>$ 210</td>
-                            </tr>
-                            <tr>
-                              <td>Flautas de pescado <span>(3pzas)</span></td>
-                              <td>$ 220</td>
+                            <tr v-for="comidaEntrada in comidasEntradas.slice(0,5)">
+                              <td>{{ comidaEntrada.name }} <span>{{ comidaEntrada.name_size }}</span></td>
+                              <td>$ {{ comidaEntrada.price }}</td>
                             </tr>
                             </tbody>
                           </table>
@@ -1002,25 +986,9 @@
                         <div class="category--container">
                           <table>
                             <tbody>
-                            <tr>
-                              <td>Petrolera de Bistec</td>
-                              <td>$ 185</td>
-                            </tr>
-                            <tr>
-                              <td>Tártara de Atún <span>140g</span><span class="star-after"></span></td>
-                              <td>$ 190</td>
-                            </tr>
-                            <tr>
-                              <td>Cochinita Pibil <span>180g</span></td>
-                              <td>$ 210</td>
-                            </tr>
-                            <tr>
-                              <td>Esquites</td>
-                              <td>$&nbsp; 95</td>
-                            </tr>
-                            <tr>
-                              <td>Rollos de Salmón <span>(3pzas)</span><span class="star-after"></span></td>
-                              <td>$ 180</td>
+                            <tr v-for="comidaEntrada in comidasEntradas.slice(5,10)">
+                              <td>{{ comidaEntrada.name }} <span>{{ comidaEntrada.name_size }}</span></td>
+                              <td>$ {{ comidaEntrada.price }}</td>
                             </tr>
                             </tbody>
                           </table>
@@ -1070,16 +1038,16 @@
                           <table>
                             <tbody>
                             <tr>
-                              <td>Tinga de Setas<span class="star-after"></span></td>
+                              <td>Tinga de Setas</td>
                               <td>$ 150</td>
                             </tr>
                             <tr>
                               <td>Marlín <span>(3pzas)</span></td>
-                              <td>$ 195</td>
+                              <td>$ 200</td>
                             </tr>
                             <tr>
                               <td>Atún Fresco <span>(3pzas)</span></td>
-                              <td>$ 215</td>
+                              <td>$ 220</td>
                             </tr>
                             </tbody>
                           </table>
@@ -1114,7 +1082,7 @@
                             </tr>
                             <tr>
                               <td>Hojas Verdes</td>
-                              <td>$ 160</td>
+                              <td>$ 165</td>
                             </tr>
                             </tbody>
                           </table>
@@ -1134,11 +1102,11 @@
                             </tr>
                             <tr>
                               <td>Cangrejo de Concha Suave</td>
-                              <td>$ 180</td>
+                              <td>$ 185</td>
                             </tr>
                             <tr>
                               <td>Milanesa de Ternera</td>
-                              <td>$ 180</td>
+                              <td>$ 185</td>
                             </tr>
                             </tbody>
                           </table>
@@ -1163,25 +1131,9 @@
                           </div>
                           <table>
                             <tbody>
-                            <tr>
-                              <td>Caldo de Piedra<span class="star-after"></span></td>
-                              <td>$185</td>
-                            </tr>
-                            <tr>
-                              <td>Fideo Seco</td>
-                              <td>$140</td>
-                            </tr>
-                            <tr>
-                              <td>Sopa de Frijol<span class="star-after"></span></td>
-                              <td>$90</td>
-                            </tr>
-                            <tr>
-                              <td>Sopa de Lima</td>
-                              <td>$95</td>
-                            </tr>
-                            <tr>
-                              <td>Sopa de Dos Tortillas</td>
-                              <td>$95</td>
+                            <tr v-for="comidaSopa in comidasSopas">
+                              <td>{{comidaSopa.name}}</td>
+                              <td>$ {{comidaSopa.price}}</td>
                             </tr>
                             </tbody>
                           </table>
@@ -1195,21 +1147,9 @@
                           </div>
                           <table>
                             <tbody>
-                            <tr>
-                              <td>Ravioles de Hongo Cremini a la Mantequilla</td>
-                              <td>$190</td>
-                            </tr>
-                            <tr>
-                              <td>Risotto de Camarón y Frijol Negro</td>
-                              <td>$235</td>
-                            </tr>
-                            <tr>
-                              <td>Risotto de Hongo Porcini y Espárrago</td>
-                              <td>$220</td>
-                            </tr>
-                            <tr>
-                              <td>Penne al Chipotle</td>
-                              <td>$185</td>
+                            <tr v-for="comidaPasta in comidasPastas">
+                              <td>{{comidaPasta.name}}</td>
+                              <td>$ {{comidaPasta.price}}</td>
                             </tr>
                             </tbody>
                           </table>
@@ -1234,32 +1174,14 @@
                           </div>
                           <table>
                             <tbody>
-                            <tr>
-                              <td>Pulpo a la Brasa <span>160g</span></td>
-                              <td>$260</td>
-                            </tr>
-                            <tr>
-                              <td>Plato de Verduras al Grill con Queso de Cabra<span class="star-after"></span></td>
-                              <td>$155</td>
-                            </tr>
-                            <tr>
-                              <td>Pollo al Pastor <span>750g</span></td>
-                              <td>$330</td>
-                            </tr>
-                            <tr>
-                              <td>Pescado Zarandeado <span>500g</span></td>
-                              <td>$410</td>
-                            </tr>
-                            <tr>
-                              <td>Queso Panela<br class="mobile-break">Zarandeado <span>180g</span><span
-                                class="star-after"></span></td>
-                              <td>$170</td>
+                            <tr v-for="comidaParrilla in comidasParrillas">
+                              <td>{{comidaParrilla.name}} <span>{{comidaParrilla.name_size}}</span></td>
+                              <td>$ {{comidaParrilla.price}}</td>
                             </tr>
                             </tbody>
                           </table>
                           <div class="mt-45 hide-mobile">
-                            <p class="star-before">SOLO CONDESA
-                              <br>Los gramajes son aproximados.
+                            <p>Los gramajes son aproximados.
                               <br>Consumir alimentos crudos aumenta el riesgo a la salud.
                             </p>
 
@@ -1274,40 +1196,14 @@
                           </div>
                           <table>
                             <tbody>
-                            <tr>
-                              <td>Filete La Capital <span>180g</span></td>
-                              <td>$280</td>
-                            </tr>
-                            <tr>
-                              <td>Atún en Costra de<br> Chiles Rojos <span>180g</span></td>
-                              <td>$275</td>
-                            </tr>
-                            <tr>
-                              <td>Pescado Tikin Xic <span>200g</span></td>
-                              <td>$275</td>
-                            </tr>
-                            <tr>
-                              <td>Salmón en Costra de Pepita Verde <span>180g</span><span class="star-after"></span>
-                              </td>
-                              <td>$290</td>
-                            </tr>
-                            <tr>
-                              <td>Pechuga de Pollo en Costra de Ceniza <span>180g</span></td>
-                              <td>$270</td>
-                            </tr>
-                            <tr>
-                              <td>Chile en Nogada <span>180g</span><span class="star-after"></span></td>
-                              <td>$320</td>
-                            </tr>
-                            <tr>
-                              <td>Enchiladas de Pato en Mole Negro <span>(4pzas)</span></td>
-                              <td>$285</td>
+                            <tr v-for="comidaPlatoFuerte in comidasPlatosFuertes">
+                              <td class="pr-10">{{comidaPlatoFuerte.name}} <span>{{comidaPlatoFuerte.name_size}}</span></td>
+                              <td>$ {{comidaPlatoFuerte.price}}</td>
                             </tr>
                             </tbody>
                           </table>
                           <div class="mt-45 mt-50-mb-30 hide-desktop">
-                            <p class="star-before">SOLO CONDESA
-                              <br>Los gramajes son aproximados.
+                            <p>Los gramajes son aproximados.
                               <br>Consumir alimentos crudos aumenta el riesgo a la salud.
                             </p>
                           </div>

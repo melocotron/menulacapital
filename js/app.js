@@ -261,7 +261,7 @@ new Vue({
           "name": "Jugo de Tomate",
           "name_size": "",
           "name_note": "",
-          "price": 30
+          "price": 55
         }
       ],
       mezcalesJovenes: [
@@ -274,7 +274,7 @@ new Vue({
           "name": "Unión",
           "name_size": "750 ml",
           "name_note": "",
-          "price": 125,
+          "price": 130,
           "price2": 1430
         },
         {
@@ -286,7 +286,7 @@ new Vue({
           "name": "Espadilla 48",
           "name_size": "750ml",
           "name_note": "",
-          "price": 125,
+          "price": 140,
           "price2": 1540
         },
         {
@@ -298,7 +298,7 @@ new Vue({
           "name": "El Gallo Mezcalero Tobalá",
           "name_size": "750ml",
           "name_note": "",
-          "price": 140,
+          "price": 160,
           "price2": 1760
         },
         {
@@ -310,7 +310,7 @@ new Vue({
           "name": "Bruxo Espadín <span class='regular-font'>#</span>1",
           "name_size": "750ml",
           "name_note": "",
-          "price": 145,
+          "price": 160,
           "price2": 1705
         },
         {
@@ -322,7 +322,7 @@ new Vue({
           "name": "Montelobos",
           "name_size": "750ml",
           "name_note": "",
-          "price": 150,
+          "price": 160,
           "price2": 1760
         },
         {
@@ -334,7 +334,7 @@ new Vue({
           "name": "Amores",
           "name_size": "750ml",
           "name_note": "",
-          "price": 150,
+          "price": 180,
           "price2": 1980
         },
         {
@@ -346,7 +346,7 @@ new Vue({
           "name": "Tlacuache",
           "name_size": "750ml",
           "name_note": "",
-          "price": 150,
+          "price": 180,
           "price2": 1980
         },
         {
@@ -358,7 +358,7 @@ new Vue({
           "name": "Nauyaca",
           "name_size": "750ml",
           "name_note": "",
-          "price": 175,
+          "price": 180,
           "price2": 1980
         },
         {
@@ -370,7 +370,7 @@ new Vue({
           "name": "Bruxo Pechuga <span class='regular-font'>#</span>2",
           "name_size": "750ml",
           "name_note": "",
-          "price": 175,
+          "price": 180,
           "price2": 1980
         },
         {
@@ -382,7 +382,7 @@ new Vue({
           "name": "Creyente Espadín",
           "name_size": "750ml",
           "name_note": "",
-          "price": 175,
+          "price": 190,
           "price2": 2090
         },
         {
@@ -394,7 +394,7 @@ new Vue({
           "name": "Murciélago",
           "name_size": "750ml",
           "name_note": "",
-          "price": 175,
+          "price": 195,
           "price2": 2145
         },
         {
@@ -406,7 +406,7 @@ new Vue({
           "name": "Unión \"El Viejo\"",
           "name_size": "750ml",
           "name_note": "",
-          "price": 175,
+          "price": 210,
           "price2": 2310
         },
         {
@@ -418,7 +418,7 @@ new Vue({
           "name": "Amores Cupreata",
           "name_size": "750ml",
           "name_note": "",
-          "price": 175,
+          "price": 225,
           "price2": 2475
         },
         {
@@ -430,7 +430,7 @@ new Vue({
           "name": "Creyente Cuishe",
           "name_size": "750ml",
           "name_note": "",
-          "price": 175,
+          "price": 230,
           "price2": 2530
         },
         {
@@ -442,7 +442,7 @@ new Vue({
           "name": "Alipús",
           "name_size": "750ml",
           "name_note": "",
-          "price": 175,
+          "price": 230,
           "price2": 2420
         },
         {
@@ -454,7 +454,7 @@ new Vue({
           "name": "Montelobos Ensamble",
           "name_size": "750ml",
           "name_note": "",
-          "price": 175,
+          "price": 230,
           "price2": 2585
         },
         {
@@ -466,20 +466,8 @@ new Vue({
           "name": "Marca Negra Espadín",
           "name_size": "750ml",
           "name_note": "",
-          "price": 185,
+          "price": 235,
           "price2": 2750
-        },
-        {
-          "id": 18,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Alipús Santa Ana",
-          "name_size": "750ml",
-          "name_note": "",
-          "price": 185,
-          "price2": 3850
         },
         {
           "id": 19,
@@ -490,7 +478,7 @@ new Vue({
           "name": "Espíritu Lauro",
           "name_size": "750ml",
           "name_note": "",
-          "price": 199,
+          "price": 250,
           "price2": 2970
         },
         {
@@ -502,7 +490,7 @@ new Vue({
           "name": "Arroqueño 48",
           "name_size": "750ml",
           "name_note": "",
-          "price": 270,
+          "price": 280,
           "price2": 3080
         },
         {
@@ -514,7 +502,7 @@ new Vue({
           "name": "Cuishe 48",
           "name_size": "750ml",
           "name_note": "",
-          "price": 275,
+          "price": 280,
           "price2": 3080
         },
         {
@@ -526,7 +514,7 @@ new Vue({
           "name": "Bruxo Ensamble <span class='regular-font'>#</span>4",
           "name_size": "750ml",
           "name_note": "",
-          "price": 275,
+          "price": 290,
           "price2": 3190
         },
         {
@@ -538,7 +526,7 @@ new Vue({
           "name": "Creyente Tobalá",
           "name_size": "750ml",
           "name_note": "",
-          "price": 280,
+          "price": 295,
           "price2": 3245
         },
         {
@@ -564,7 +552,7 @@ new Vue({
           "name": "Amores",
           "name_size": "750 ml",
           "name_note": "",
-          "price": 175,
+          "price": 220,
           "price2": 2275
         },
         {
@@ -576,7 +564,7 @@ new Vue({
           "name": "Espíritu Lauro",
           "name_size": "750 ml",
           "name_note": "",
-          "price": 175,
+          "price": 280,
           "price2": 2275
         }
       ],
@@ -1096,6 +1084,193 @@ new Vue({
           "name_note": "",
           "price": 110
         }
+      ],
+      comidasSopas:[
+        {
+          "id": 1,
+          "name": "Caldo de Piedra",
+          "price": 185
+        },
+        {
+          "id": 2,
+          "name": "Fideo Seco",
+          "price": 150
+        },
+        {
+          "id": 3,
+          "name": "Sopa de Frijol",
+          "price": 105
+        },
+        {
+          "id": 4,
+          "name": "Sopa de Lima",
+          "price": 105
+        },
+        {
+          "id": 5,
+          "name": "Sopa de Dos Tortillas",
+          "price": 105
+        }
+      ],
+      comidasPastas:[
+        {
+          "id": 1,
+          "name": "Ravioles de Hongo Cremini a la Mantequilla",
+          "price": 195
+        },
+        {
+          "id": 2,
+          "name": "Risotto de Camarón y Frijol Negro",
+          "price": 235
+        },
+        {
+          "id": 3,
+          "name": "Risotto de Hongo Porcini y Espárrago",
+          "price": 230
+        },
+        {
+          "id": 4,
+          "name": "Penne al Chipotle",
+          "price": 190
+        }
+      ],
+      comidasParrillas:[
+        {
+          "id": 1,
+          "name": "Pulpo a la Brasa",
+          "name_size": "160g",
+          "price": 270
+        },
+        {
+          "id": 2,
+          "name": "Plato de Verduras al Grill con Queso de Cabra",
+          "name_size": "",
+          "price": 155
+        },
+        {
+          "id": 3,
+          "name": "Pollo al Pastor",
+          "name_size": "750g",
+          "price": 330
+        },
+        {
+          "id": 4,
+          "name": "Pescado Zarandeado",
+          "name_size": "500g",
+          "price": 410
+        },
+        {
+          "id": 5,
+          "name": "Queso Panela Zarandeado",
+          "name_size": "180g",
+          "price": 170
+        }
+      ],
+      comidasPlatosFuertes: [
+        {
+          "id": 1,
+          "name": "Filete La Capital",
+          "name_size": "180g",
+          "price": 285
+        },
+        {
+          "id": 2,
+          "name": "Atún en Costra de Chiles Rojos",
+          "name_size": "180g",
+          "price": 280
+        },
+        {
+          "id": 3,
+          "name": "Pescado Tikin Xic",
+          "name_size": "200g",
+          "price": 280
+        },
+        {
+          "id": 4,
+          "name": "Salmón en Costra de Pepita Verde",
+          "name_size": "180g",
+          "price": 300
+        },
+        {
+          "id": 5,
+          "name": "Pechuga de Pollo en Costra de Ceniza",
+          "name_size": "180g",
+          "price": 275
+        },
+        {
+          "id": 6,
+          "name": "Chile en Nogada",
+          "name_size": "180g",
+          "price": 330
+        },
+        {
+          "id": 7,
+          "name": "Enchiladas de Pato con Mole Negro",
+          "name_size": "(4pzas)",
+          "price": 295
+        }
+      ],
+      comidasEntradas: [
+        {
+          "id": 1,
+          "name": "Tacos La Capital",
+          "name_size": "(4pzas)",
+          "price": 235
+        },
+        {
+          "id": 2,
+          "name": "Chips con Guacamole",
+          "name_size": "",
+          "price": 185
+        },
+        {
+          "id": 3,
+          "name": "Tiradito de atún",
+          "name_size": "160g",
+          "price": 195
+        },
+        {
+          "id": 4,
+          "name": "Chicharrón de pescado",
+          "name_size": "300g",
+          "price": 215
+        },
+        {
+          "id": 5,
+          "name": "Flautas de pescado",
+          "name_size": "(3pzas)",
+          "price": 225
+        },
+        {
+          "id": 6,
+          "name": "Petrolera de Bistec",
+          "name_size": "",
+          "price": 185
+        },
+        {
+          "id": 7,
+          "name": "Tártara de Atún",
+          "name_size": "",
+          "price": 195
+        },
+        {
+          "id": 8,
+          "name": "Cochinita Pibil",
+          "name_size": "180g",
+          "price": 220
+        },
+        {
+          "id": 9,
+          "name": "Esquites",
+          "name_size": "",
+          "price": 105
+        },
+        {
+          "id": 10,
+          "name": "Rollos de Salmón",
+          "name_size": "(3pzas)",
+          "price": 190
+        },
       ]
     }
   }
