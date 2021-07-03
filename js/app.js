@@ -267,279 +267,153 @@ new Vue({
       mezcalesJovenes: [
         {
           "id": 1,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
           "name": "Unión",
-          "name_size": "750 ml",
-          "name_note": "",
-          "price": 130,
-          "price2": 1430
+          "name_size": "750ml",
+          "price": 130
         },
         {
           "id": 2,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
           "name": "Espadilla 48",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 140,
-          "price2": 1540
+          "price": 140
         },
         {
           "id": 3,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "El Gallo Mezcalero Tobalá",
+          "name": "El Gallo Mezcalero Tobalá ",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 160,
-          "price2": 1760
+          "price": 160
         },
         {
           "id": 4,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Bruxo Espadín <span class='regular-font'>#</span>1",
+          "name": "Bruxo Espadín <span class='regular-font'>#</span>1 ",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 165,
-          "price2": 1815
+          "price": 165
         },
         {
           "id": 5,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
           "name": "Montelobos",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 165,
-          "price2": 1815
+          "price": 165
         },
         {
           "id": 6,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Amores",
+          "name": "Amarás",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 180,
-          "price2": 1980
+          "price": 180
         },
         {
           "id": 7,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
           "name": "Tlacuache",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 180,
-          "price2": 1980
+          "price": 180
         },
         {
           "id": 8,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
           "name": "Nauyaca",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 180,
-          "price2": 1980
+          "price": 180
         },
         {
           "id": 9,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Bruxo Pechuga <span class='regular-font'>#</span>2",
+          "name": "Creyente Espadín ",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 180,
-          "price2": 1980
+          "price": 190
         },
         {
           "id": 10,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Creyente Espadín",
+          "name": "Murciélago",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 190,
-          "price2": 2090
+          "price": 195
         },
         {
           "id": 11,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Murciélago",
+          "name": "Unión \"El Viejo\"",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 195,
-          "price2": 2145
+          "price": 210
         },
         {
           "id": 12,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Unión \"El Viejo\"",
+          "name": "Bruxo Pechuga <span class='regular-font'>#</span>2 ",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 210,
-          "price2": 2310
+          "price": 195
         },
         {
           "id": 13,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Amores Cupreata",
+          "name": "Amarás Cupreata ",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 225,
-          "price2": 2475
+          "price": 225
         },
         {
           "id": 14,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Creyente Cuishe",
+          "name": "Creyente Cuishe ",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 230,
-          "price2": 2530
+          "price": 230
         },
         {
           "id": 15,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Alipús",
+          "name": "Alipús San Andrés ",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 230,
-          "price2": 2420
+          "price": 230
         },
         {
           "id": 16,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Montelobos Ensamble",
+          "name": "Montelobos Ensamble ",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 230,
-          "price2": 2585
+          "price": 230
         },
         {
           "id": 17,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Marca Negra Espadín",
+          "name": "Marca Negra Espadín ",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 235,
-          "price2": 2750
+          "price": 235
+        },
+        {
+          "id": 18,
+          "name": "Espíritu Lauro ",
+          "name_size": "750ml",
+          "price": 250
         },
         {
           "id": 19,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Espíritu Lauro",
+          "name": "Arroqueño 48",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 250,
-          "price2": 2970
+          "price": 280
         },
         {
           "id": 20,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Arroqueño 48",
+          "name": "Cuishe 48",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 280,
-          "price2": 3080
+          "price": 280
         },
         {
           "id": 21,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Cuishe 48",
+          "name": "Bruxo Ensamble <span class='regular-font'>#</span>4 ",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 280,
-          "price2": 3080
+          "price": 310
         },
         {
           "id": 22,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Bruxo Ensamble <span class='regular-font'>#</span>4",
+          "name": "Creyente Tobalá",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 290,
-          "price2": 3190
+          "price": 320
         },
         {
           "id": 23,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Creyente Tobalá",
+          "name": "Marca Negra Tobalá",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 295,
-          "price2": 3245
+          "price": 360
         },
         {
           "id": 24,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Joven",
-          "fam_note": "",
-          "name": "Marca Negra Tobalá",
+          "name": "Marca Negra Tepeztate",
           "name_size": "750ml",
-          "name_note": "",
-          "price": 320,
-          "price2": 3520
+          "price": 480
+        },
+        {
+          "id": 25,
+          "name": "Los Danzantes Pechuga Grana Cochinilla",
+          "name_size": "750ml",
+          "price": 495
         }
       ],
       mezcalesReposados: [
@@ -549,8 +423,8 @@ new Vue({
           "sub_cat": "Mezcales",
           "fam": "Reposado",
           "fam_note": "",
-          "name": "Amores",
-          "name_size": "750 ml",
+          "name": "Amarás",
+          "name_size": "750ml",
           "name_note": "",
           "price": 220,
           "price2": 2275
@@ -562,7 +436,7 @@ new Vue({
           "fam": "Reposado",
           "fam_note": "",
           "name": "Espíritu Lauro",
-          "name_size": "750 ml",
+          "name_size": "750ml",
           "name_note": "",
           "price": 280,
           "price2": 2275
