@@ -310,8 +310,8 @@ new Vue({
           "name": "Bruxo Espadín <span class='regular-font'>#</span>1",
           "name_size": "750ml",
           "name_note": "",
-          "price": 160,
-          "price2": 1705
+          "price": 165,
+          "price2": 1815
         },
         {
           "id": 5,
@@ -322,8 +322,8 @@ new Vue({
           "name": "Montelobos",
           "name_size": "750ml",
           "name_note": "",
-          "price": 160,
-          "price2": 1760
+          "price": 165,
+          "price2": 1815
         },
         {
           "id": 6,
