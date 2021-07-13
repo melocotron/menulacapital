@@ -147,7 +147,7 @@ new Vue({
           "name": "Cucapá Brown Ale (Oscura)",
           "name_size": "",
           "name_note": "",
-          "price": 100
+          "price": 110
         },
         {
           "id": 5,
@@ -158,7 +158,7 @@ new Vue({
           "name": "Cucapá Enjambre (Helles Lager)",
           "name_size": "",
           "name_note": "",
-          "price": 100
+          "price": 110
         },
         {
           "id": 6,
@@ -169,7 +169,7 @@ new Vue({
           "name": "Charro (Lager/Pilsner)",
           "name_size": "",
           "name_note": "",
-          "price": 100
+          "price": 110
         }
       ],
       cervezasImportadas: [
@@ -963,7 +963,7 @@ new Vue({
         {
           "id": 1,
           "name": "Caldo de Piedra",
-          "price": 185
+          "price": 195
         },
         {
           "id": 2,
@@ -973,17 +973,17 @@ new Vue({
         {
           "id": 3,
           "name": "Sopa de Frijol",
-          "price": 105
+          "price": 110
         },
         {
           "id": 4,
           "name": "Sopa de Lima",
-          "price": 105
+          "price": 110
         },
         {
           "id": 5,
           "name": "Sopa de Dos Tortillas",
-          "price": 105
+          "price": 110
         }
       ],
       comidasPastas:[
@@ -995,17 +995,17 @@ new Vue({
         {
           "id": 2,
           "name": "Risotto de Camarón y Frijol Negro",
-          "price": 235
+          "price": 240
         },
         {
           "id": 3,
           "name": "Risotto de Hongo Porcini y Espárrago",
-          "price": 230
+          "price": 235
         },
         {
           "id": 4,
           "name": "Penne al Chipotle",
-          "price": 190
+          "price": 195
         }
       ],
       comidasParrillas:[
@@ -1013,25 +1013,25 @@ new Vue({
           "id": 1,
           "name": "Pulpo a la Brasa",
           "name_size": "160g",
-          "price": 270
+          "price": 290
         },
         {
           "id": 2,
           "name": "Plato de Verduras al Grill con Queso de Cabra",
           "name_size": "",
-          "price": 155
+          "price": 165
         },
         {
           "id": 3,
           "name": "Pollo al Pastor",
           "name_size": "750g",
-          "price": 330
+          "price": 340
         },
         {
           "id": 4,
           "name": "Pescado Zarandeado",
           "name_size": "500g",
-          "price": 410
+          "price": 465
         },
         {
           "id": 5,
@@ -1045,43 +1045,43 @@ new Vue({
           "id": 1,
           "name": "Filete La Capital",
           "name_size": "180g",
-          "price": 285
+          "price": 295
         },
         {
           "id": 2,
           "name": "Atún en Costra de Chiles Rojos",
           "name_size": "180g",
-          "price": 280
+          "price": 290
         },
         {
           "id": 3,
           "name": "Pescado Tikin Xic",
           "name_size": "200g",
-          "price": 280
+          "price": 285
         },
         {
           "id": 4,
           "name": "Salmón en Costra de Pepita Verde",
           "name_size": "180g",
-          "price": 300
+          "price": 310
         },
         {
           "id": 5,
           "name": "Pechuga de Pollo en Costra de Ceniza",
           "name_size": "180g",
-          "price": 275
+          "price": 285
         },
         {
           "id": 6,
           "name": "Chile en Nogada",
           "name_size": "180g",
-          "price": 330
+          "price": 340
         },
         {
           "id": 7,
           "name": "Enchiladas de Pato con Mole Negro",
           "name_size": "(4pzas)",
-          "price": 295
+          "price": 310
         }
       ],
       comidasEntradas: [
@@ -1095,7 +1095,7 @@ new Vue({
           "id": 2,
           "name": "Chips con Guacamole",
           "name_size": "",
-          "price": 185
+          "price": 195
         },
         {
           "id": 3,
@@ -1107,7 +1107,7 @@ new Vue({
           "id": 4,
           "name": "Chicharrón de pescado",
           "name_size": "300g",
-          "price": 215
+          "price": 225
         },
         {
           "id": 5,
@@ -1119,7 +1119,7 @@ new Vue({
           "id": 6,
           "name": "Petrolera de Bistec",
           "name_size": "",
-          "price": 185
+          "price": 195
         },
         {
           "id": 7,
@@ -1131,13 +1131,13 @@ new Vue({
           "id": 8,
           "name": "Cochinita Pibil",
           "name_size": "180g",
-          "price": 220
+          "price": 230
         },
         {
           "id": 9,
           "name": "Esquites",
           "name_size": "",
-          "price": 105
+          "price": 120
         },
         {
           "id": 10,
