@@ -261,159 +261,137 @@ new Vue({
           "name": "Jugo de Tomate",
           "name_size": "",
           "name_note": "",
-          "price": 55
+          "price": 30
         }
       ],
       mezcalesJovenes: [
         {
-          "id": 1,
           "name": "Unión",
           "name_size": "750ml",
           "price": 130
         },
         {
-          "id": 2,
-          "name": "Espadilla 48",
+          "name": "Punto y Coma",
           "name_size": "750ml",
           "price": 140
+
         },
         {
-          "id": 3,
+          "name": "Espadilla 48",
+          "name_size": "750ml",
+          "price": 150
+        },
+        {
           "name": "El Gallo Mezcalero Tobalá ",
           "name_size": "750ml",
           "price": 160
         },
         {
-          "id": 4,
           "name": "Bruxo Espadín <span class='regular-font'>#</span>1 ",
           "name_size": "750ml",
           "price": 165
         },
         {
-          "id": 5,
           "name": "Montelobos",
           "name_size": "750ml",
           "price": 165
         },
         {
-          "id": 6,
           "name": "Amarás",
           "name_size": "750ml",
           "price": 180
         },
         {
-          "id": 7,
           "name": "Tlacuache",
           "name_size": "750ml",
           "price": 180
         },
         {
-          "id": 8,
           "name": "Nauyaca",
           "name_size": "750ml",
           "price": 180
         },
         {
-          "id": 9,
           "name": "Creyente Espadín ",
           "name_size": "750ml",
           "price": 190
         },
         {
-          "id": 10,
           "name": "Murciélago",
           "name_size": "750ml",
           "price": 195
-        },
+        }
+      ],
+      mezcalesPremium: [
         {
-          "id": 11,
           "name": "Unión \"El Viejo\"",
           "name_size": "750ml",
           "price": 210
         },
         {
-          "id": 12,
-          "name": "Bruxo Pechuga <span class='regular-font'>#</span>2 ",
+          "name": "Bruxo <span class='regular-font'>#</span>2",
           "name_size": "750ml",
-          "price": 195
+          "price": 210
         },
         {
-          "id": 13,
-          "name": "Amarás Cupreata ",
+          "name": "Amarás Cupreata",
           "name_size": "750ml",
           "price": 225
         },
         {
-          "id": 14,
-          "name": "Creyente Cuishe ",
+          "name": "Creyente Cuishe",
           "name_size": "750ml",
           "price": 230
         },
         {
-          "id": 15,
-          "name": "Alipús San Andrés ",
+          "name": "Alipús Santa Ana",
           "name_size": "750ml",
           "price": 230
         },
         {
-          "id": 16,
-          "name": "Montelobos Ensamble ",
+          "name": "Montelobos Ensamble",
           "name_size": "750ml",
           "price": 230
         },
         {
-          "id": 17,
-          "name": "Marca Negra Espadín ",
+          "name": "Marca Negra Espadín",
           "name_size": "750ml",
           "price": 235
         },
         {
-          "id": 18,
           "name": "Espíritu Lauro ",
           "name_size": "750ml",
           "price": 250
         },
         {
-          "id": 19,
           "name": "Arroqueño 48",
           "name_size": "750ml",
           "price": 280
         },
         {
-          "id": 20,
           "name": "Cuishe 48",
           "name_size": "750ml",
           "price": 280
         },
         {
-          "id": 21,
           "name": "Bruxo Ensamble <span class='regular-font'>#</span>4 ",
           "name_size": "750ml",
           "price": 310
         },
         {
-          "id": 22,
           "name": "Creyente Tobalá",
           "name_size": "750ml",
           "price": 320
         },
         {
-          "id": 23,
           "name": "Marca Negra Tobalá",
           "name_size": "750ml",
           "price": 360
         },
         {
-          "id": 24,
           "name": "Marca Negra Tepeztate",
           "name_size": "750ml",
           "price": 480
-        },
-        {
-          "id": 25,
-          "name": "Los Danzantes Pechuga Grana Cochinilla",
-          "name_size": "750ml",
-          "price": 495
         }
       ],
       mezcalesReposados: [

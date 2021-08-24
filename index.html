@@ -932,6 +932,21 @@
                     </tbody>
                   </table>
 
+                  <table>
+                    <thead>
+                    <tr>
+                      <th>Premium</th>
+                      <th>2oz<br>59.14ml</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr v-for="mezcalPremium in mezcalesPremium">
+                      <td><div class="table-text" v-html="mezcalPremium.name"></div> <span>{{mezcalPremium.name_size}}</span></td>
+                      <td>$ {{mezcalPremium.price}}</td>
+                    </tr>
+                    </tbody>
+                  </table>
+
                 </div>
               </div>
             </div>
