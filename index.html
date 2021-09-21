@@ -585,6 +585,9 @@
                             <td>$ {{coctelMartini.price}}</td>
                           </tr>
                         </table>
+                        <div class="p-relative">
+                          <div class="agave hide-mobile"></div>
+                        </div>
                       </div>
                     </div>
                     <div class="col-xs-12 col-md-6">
@@ -612,7 +615,7 @@
                           </thead>
                           <tbody>
                           <tr>
-                            <td>Margarita La Capital<br><span>Con Toronja y Ancho Reyes</span></td>
+                            <td>Margarita La Capital<br><span>Con Toronja y Licor de Agave de 7 notas</span></td>
                             <td>$ 195</td>
                           </tr>
                           </tbody>
@@ -621,28 +624,28 @@
                         <table>
                           <thead>
                           <tr>
-                            <th colspan="2">Whisky <span>Etiqueta Roja (2oz)</span></th>
+                            <th colspan="2">Whisky <span>Etiqueta Negra (2oz)</span></th>
                           </tr>
                           </thead>
                           <tbody>
-                          <tr>
-                            <td>Acapulco Tropical<br><span>Súper fresco!!!</span></td>
-                            <td>$ 185</td>
-                          </tr>
+                            <tr v-for="coctelWhisky in coctelesWhisky">
+                              <td>{{coctelWhisky.name}}<br><span>{{coctelWhisky.name_description}}</span></td>
+                              <td>$ {{coctelWhisky.price}}</td>
+                            </tr>
                           </tbody>
                         </table>
                         <!--                      ron-->
                         <table>
                           <thead>
                           <tr>
-                            <th colspan="2">Ron <span>(2oz)</span></th>
+                            <th colspan="2">Ron <span>Zacapa Ambar (2oz)</span></th>
                           </tr>
                           </thead>
                           <tbody>
-                          <tr>
-                            <td>Mojito Takob<br><span>Con Guanábana y Hierbabuena</span></td>
-                            <td>$ 190</td>
-                          </tr>
+                            <tr v-for="coctelRon in coctelesRon">
+                              <td>{{coctelRon.name}}<br><span>{{coctelRon.name_description}}</span></td>
+                              <td>$ {{coctelRon.price}}</td>
+                            </tr>
                           </tbody>
                         </table>
                         <!--                      clásicos -->
@@ -659,9 +662,6 @@
                           </tr>
                           </tbody>
                         </table>
-                        <div class="p-relative">
-                          <div class="agave hide-mobile"></div>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -756,28 +756,28 @@
                     <table>
                       <thead>
                       <tr>
-                        <th colspan="2">Whisky <span>Etiqueta Roja (2oz)</span></th>
+                        <th colspan="2">Whisky <span>Etiqueta Negra (2oz)</span></th>
                       </tr>
                       </thead>
                       <tbody>
-                      <tr>
-                        <td>Acapulco Tropical<br><span>Súper fresco!!!</span></td>
-                        <td>$ 185</td>
-                      </tr>
+                        <tr v-for="coctelWhisky in coctelesWhisky">
+                          <td>{{coctelWhisky.name}}<br><span>{{coctelWhisky.name_description}}</span></td>
+                          <td>$ {{coctelWhisky.price}}</td>
+                        </tr>
                       </tbody>
                     </table>
                     <!--                      ron-->
                     <table>
                       <thead>
                       <tr>
-                        <th colspan="2">Ron <span>(2oz)</span></th>
+                        <th colspan="2">Ron <span>Zacapa Ambar (2oz)</span></th>
                       </tr>
                       </thead>
                       <tbody>
-                      <tr>
-                        <td>Mojito Takob<br><span>Con Guanábana y Hierbabuena</span></td>
-                        <td>$ 190</td>
-                      </tr>
+                        <tr v-for="coctelRon in coctelesRon">
+                          <td>{{coctelRon.name}}<br><span>{{coctelRon.name_description}}</span></td>
+                          <td>$ {{coctelRon.price}}</td>
+                        </tr>
                       </tbody>
                     </table>
                     <!--                      martinis-->

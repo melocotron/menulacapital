@@ -435,19 +435,6 @@ new Vue({
           "price2": ""
         },
         {
-          "id": 2,
-          "cat": "Bebidas",
-          "sub_cat": "Cocteles",
-          "fam": "Mezcal",
-          "fam_note": "",
-          "name": "Oaxaca 86",
-          "name_description": "Nuestro Mojito de Mezcal  con Pepino",
-          "name_size": "",
-          "name_note": "",
-          "price": 175,
-          "price2": ""
-        },
-        {
           "id": 3,
           "cat": "Bebidas",
           "sub_cat": "Cocteles",
@@ -505,26 +492,13 @@ new Vue({
           "id": 1,
           "cat": "Bebidas",
           "sub_cat": "Cocteles",
-          "fam": "Mezcal",
+          "fam": "Vodka",
           "fam_note": "",
-          "name": "Horchata de Mamey",
-          "name_description": "Hecha en casa con toque de Canela",
+          "name": "Lychee",
+          "name_description": "Cremoso",
           "name_size": "",
           "name_note": "",
-          "price": 170,
-          "price2": ""
-        },
-        {
-          "id": 1,
-          "cat": "Bebidas",
-          "sub_cat": "Cocteles",
-          "fam": "Mezcal",
-          "fam_note": "",
-          "name": "Quetzal",
-          "name_description": "Frutos del Bosque y Albahaca",
-          "name_size": "",
-          "name_note": "",
-          "price": 180,
+          "price": 190,
           "price2": ""
         }
       ],
@@ -567,35 +541,91 @@ new Vue({
           "name_note": "",
           "price": 175,
           "price2": ""
+        },
+        {
+          "id": 4,
+          "cat": "Bebidas",
+          "sub_cat": "Cocteles",
+          "fam": "Ginebra",
+          "fam_note": "",
+          "name": "Sayulita",
+          "name_description": "Pepino y Guayaba",
+          "name_size": "",
+          "name_note": "",
+          "price": 195,
+          "price2": ""
         }
       ],
-      coctelesMartinis: [
+      coctelesWhisky: [
         {
           "id": 1,
           "cat": "Bebidas",
           "sub_cat": "Cocteles",
-          "fam": "Martinis",
+          "fam": "Whisky",
           "fam_note": "",
-          "name": "LYCHEE",
-          "name_description": "",
+          "name": "Carajillo LA CAPITAL",
+          "name_description": "Receta especial del Chef",
           "name_size": "",
           "name_note": "",
-          "price": 190,
+          "price": 230,
+          "price2": ""
+        },
+        {
+          "id": 1,
+          "cat": "Bebidas",
+          "sub_cat": "Cocteles",
+          "fam": "Whisky",
+          "fam_note": "",
+          "name": "Smoked Whisky",
+          "name_description": "Piña y Romero",
+          "name_size": "",
+          "name_note": "",
+          "price": 195,
+          "price2": ""
+        }
+      ],
+      coctelesRon: [
+        {
+          "id": 1,
+          "cat": "Bebidas",
+          "sub_cat": "Cocteles",
+          "fam": "Ron",
+          "fam_note": "",
+          "name": "Piña Colada Especial",
+          "name_description": "Piña y Coco Natural",
+          "name_size": "",
+          "name_note": "",
+          "price": 195,
           "price2": ""
         },
         {
           "id": 2,
           "cat": "Bebidas",
           "sub_cat": "Cocteles",
-          "fam": "Martinis",
+          "fam": "Ron",
           "fam_note": "",
-          "name": "PEPINO",
-          "name_description": "",
+          "name": "NOGADA",
+          "name_description": "Nuez deCastilla y Chile Poblano",
           "name_size": "",
           "name_note": "",
-          "price": 170,
+          "price": 210,
           "price2": ""
         },
+        {
+          "id": 3,
+          "cat": "Bebidas",
+          "sub_cat": "Cocteles",
+          "fam": "Ron",
+          "fam_note": "",
+          "name": "Mojito Takob",
+          "name_description": "Nuestro Mojito de Guanábana",
+          "name_size": "",
+          "name_note": "",
+          "price": 210,
+          "price2": ""
+        }
+      ],
+      coctelesMartinis: [
         {
           "id": 3,
           "cat": "Bebidas",
@@ -663,7 +693,20 @@ new Vue({
         }
       ],
       coctelesClasicos: [
-        {
+          {
+            "id": 1,
+            "cat": "Bebidas",
+            "sub_cat": "Cocteles",
+            "fam": "Clásicos",
+            "fam_note": "",
+            "name": "Cosmopólitan",
+            "name_description": "",
+            "name_size": "",
+            "name_note": "",
+            "price": 170,
+            "price2": ""
+          },
+          {
           "id": 1,
           "cat": "Bebidas",
           "sub_cat": "Cocteles",
@@ -736,10 +779,10 @@ new Vue({
           "sub_cat": "Bebidas",
           "fam": "Bebidas",
           "fam_note": "",
-          "name": "Baileys Especial",
+          "name": "Carajillo La Capital",
           "name_size": "",
           "name_note": "",
-          "price": 175
+          "price": 230
         },
         {
           "id": 2,
@@ -747,10 +790,10 @@ new Vue({
           "sub_cat": "Bebidas",
           "fam": "Bebidas",
           "fam_note": "",
-          "name": "Carajillo",
-          "name_size": "1.5oz",
+          "name": "Falso Carajillo de Cajeta",
+          "name_size": "",
           "name_note": "",
-          "price": 175
+          "price": 195
         },
         {
           "id": 3,
@@ -758,10 +801,21 @@ new Vue({
           "sub_cat": "Bebidas",
           "fam": "Bebidas",
           "fam_note": "",
-          "name": "Frappé de Té Verde y Flores",
+          "name": "Falso Carajillo de Avellana",
           "name_size": "",
           "name_note": "",
-          "price": 90
+          "price": 195
+        },
+        {
+          "id": 4,
+          "cat": "Postres",
+          "sub_cat": "Bebidas",
+          "fam": "Bebidas",
+          "fam_note": "",
+          "name": "Carajillo Tradicional",
+          "name_size": "",
+          "name_note": "",
+          "price": 175
         }
       ],
       bebidasCafe: [

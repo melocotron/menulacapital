@@ -1343,10 +1343,10 @@ textarea {
 
 .agave {
   background: url('../img/agave.svg') top no-repeat;
-  height: 174px;
+  height: 209px;
   width: 275px;
   left: 82px;
-  top: 0px;
+  top: 121px;
   background-size: contain;
   position: absolute;
 }
