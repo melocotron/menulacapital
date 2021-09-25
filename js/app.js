@@ -485,6 +485,19 @@ new Vue({
           "name_note": "",
           "price": 175,
           "price2": ""
+        },
+        {
+          "id": 7,
+          "cat": "Bebidas",
+          "sub_cat": "Cocteles",
+          "fam": "Mezcal",
+          "fam_note": "",
+          "name": "Xochimilco",
+          "name_description": "Tomatillo, Pepino y Chile Serrano",
+          "name_size": "",
+          "name_note": "",
+          "price": 175,
+          "price2": ""
         }
       ],
       coctelesVodka: [
@@ -530,19 +543,6 @@ new Vue({
           "price2": ""
         },
         {
-          "id": 3,
-          "cat": "Bebidas",
-          "sub_cat": "Cocteles",
-          "fam": "Ginebra",
-          "fam_note": "",
-          "name": "Hada Verde",
-          "name_description": "Albahaca y Limón Amarillo",
-          "name_size": "",
-          "name_note": "",
-          "price": 175,
-          "price2": ""
-        },
-        {
           "id": 4,
           "cat": "Bebidas",
           "sub_cat": "Cocteles",
@@ -553,6 +553,20 @@ new Vue({
           "name_size": "",
           "name_note": "",
           "price": 195,
+          "price2": ""
+        },
+        {
+          "id": 5,
+          "cat": "Bebidas",
+          "sub_cat": "Cocteles",
+          "fam": "Ginebra",
+          "fam_note": "",
+          "name": "Negroni Sour",
+          "name_logo": "tanqueray",
+          "name_description": ", Campari, Martini Rosso",
+          "name_size": "",
+          "name_note": "",
+          "price": 210,
           "price2": ""
         }
       ],
@@ -636,7 +650,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 170,
+          "price": 180,
           "price2": ""
         },
         {
@@ -649,7 +663,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 170,
+          "price": 180,
           "price2": ""
         },
         {
@@ -662,7 +676,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 170,
+          "price": 175,
           "price2": ""
         },
         {
@@ -675,7 +689,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 190,
+          "price": 195,
           "price2": ""
         },
         {
@@ -693,19 +707,6 @@ new Vue({
         }
       ],
       coctelesClasicos: [
-          {
-            "id": 1,
-            "cat": "Bebidas",
-            "sub_cat": "Cocteles",
-            "fam": "Clásicos",
-            "fam_note": "",
-            "name": "Cosmopólitan",
-            "name_description": "",
-            "name_size": "",
-            "name_note": "",
-            "price": 170,
-            "price2": ""
-          },
           {
           "id": 1,
           "cat": "Bebidas",

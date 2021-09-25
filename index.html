@@ -601,7 +601,12 @@
                           </thead>
                           <tbody>
                           <tr v-for="coctelGinebra in coctelesGinebra">
-                            <td>{{coctelGinebra.name}}<br><span>{{coctelGinebra.name_description}}</span></td>
+                            <td>{{coctelGinebra.name}}
+                              <div class="tanqueray__align">
+                                <div v-if="coctelGinebra.name_logo" class="tanqueray"></div>
+                                <span>{{coctelGinebra.name_description}}</span>
+                              </div>
+                            </td>
                             <td>$ {{coctelGinebra.price}}</td>
                           </tr>
                           </tbody>
@@ -705,7 +710,12 @@
                       </thead>
                       <tbody>
                       <tr v-for="coctelGinebra in coctelesGinebra">
-                        <td>{{coctelGinebra.name}}<br><span>{{coctelGinebra.name_description}}</span></td>
+                        <td>{{coctelGinebra.name}}
+                          <div class="tanqueray__align">
+                            <div v-if="coctelGinebra.name_logo" class="tanqueray"></div>
+                            <span>{{coctelGinebra.name_description}}</span>
+                          </div>
+                        </td>
                         <td>$ {{coctelGinebra.price}}</td>
                       </tr>
                       </tbody>

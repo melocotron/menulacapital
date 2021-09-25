@@ -1,4 +1,5 @@
 window.addEventListener("load", function () {
+
   // store tabs variable
   const myTabs = document.querySelectorAll("ul.nav-tabs > li");
 
@@ -25,6 +26,9 @@ window.addEventListener("load", function () {
 
 
 });
+
+
+
 
 /*
 document.querySelector(".to-top-bebidas").addEventListener("click", function () {

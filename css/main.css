@@ -1351,6 +1351,17 @@ textarea {
   position: absolute;
 }
 
+.tanqueray {
+  background: url('../img/tanqueray.svg') top no-repeat;
+  height: 39px;
+  width: 86px;
+}
+
+.tanqueray__align {
+  display: flex;
+  align-items: center;
+}
+
 .greca-uno {
   background: url('../img/greca-01.svg') top no-repeat;
   height: 60px;
