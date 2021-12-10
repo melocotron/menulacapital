@@ -102,6 +102,17 @@ new Vue({
           "name_size": "355ml",
           "name_note": "",
           "price": 65
+        },
+        {
+          "id": 10,
+          "cat": "Bebidas",
+          "sub_cat": "Cervezas",
+          "fam": "Nacionales",
+          "fam_note": "",
+          "name": "Nochebuena",
+          "name_size": "355ml",
+          "name_note": "",
+          "price": 70
         }
       ],
       cervezasArtesanales: [
@@ -268,12 +279,12 @@ new Vue({
         {
           "name": "Unión",
           "name_size": "750ml",
-          "price": 130
+          "price": 140
         },
         {
           "name": "Punto y Coma",
           "name_size": "750ml",
-          "price": 140
+          "price": 145
 
         },
         {
@@ -284,7 +295,7 @@ new Vue({
         {
           "name": "El Gallo Mezcalero Tobalá ",
           "name_size": "750ml",
-          "price": 160
+          "price": 165
         },
         {
           "name": "Bruxo Espadín <span class='regular-font'>#</span>1 ",
@@ -292,14 +303,9 @@ new Vue({
           "price": 165
         },
         {
-          "name": "Montelobos",
+          "name": "Creyente Espadín ",
           "name_size": "750ml",
           "price": 165
-        },
-        {
-          "name": "Amarás",
-          "name_size": "750ml",
-          "price": 180
         },
         {
           "name": "Tlacuache",
@@ -312,26 +318,21 @@ new Vue({
           "price": 180
         },
         {
-          "name": "Creyente Espadín ",
+          "name": "Montelobos",
           "name_size": "750ml",
-          "price": 190
+          "price": 180
         },
         {
-          "name": "Murciélago",
+          "name": "Amarás",
           "name_size": "750ml",
-          "price": 195
+          "price": 190
         }
       ],
       mezcalesPremium: [
         {
           "name": "Unión \"El Viejo\"",
           "name_size": "750ml",
-          "price": 210
-        },
-        {
-          "name": "Bruxo <span class='regular-font'>#</span>2",
-          "name_size": "750ml",
-          "price": 210
+          "price": 215
         },
         {
           "name": "Amarás Cupreata",
@@ -344,12 +345,7 @@ new Vue({
           "price": 230
         },
         {
-          "name": "Alipús Santa Ana",
-          "name_size": "750ml",
-          "price": 230
-        },
-        {
-          "name": "Montelobos Ensamble",
+          "name": "Alipús San Andrés",
           "name_size": "750ml",
           "price": 230
         },
@@ -362,6 +358,16 @@ new Vue({
           "name": "Espíritu Lauro ",
           "name_size": "750ml",
           "price": 250
+        },
+        {
+          "name": "Montelobos Ensamble",
+          "name_size": "750ml",
+          "price": 250
+        },
+        {
+          "name": "Amarás Logia",
+          "name_size": "750ml",
+          "price": 280
         },
         {
           "name": "Arroqueño 48",
@@ -384,9 +390,9 @@ new Vue({
           "price": 320
         },
         {
-          "name": "Marca Negra Tobalá",
+          "name": "Montelobos Tobalá",
           "name_size": "750ml",
-          "price": 360
+          "price": 380
         },
         {
           "name": "Marca Negra Tepeztate",
@@ -396,11 +402,6 @@ new Vue({
       ],
       mezcalesReposados: [
         {
-          "id": 1,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Reposado",
-          "fam_note": "",
           "name": "Amarás",
           "name_size": "750ml",
           "name_note": "",
@@ -408,15 +409,10 @@ new Vue({
           "price2": 2275
         },
         {
-          "id": 2,
-          "cat": "Bebidas",
-          "sub_cat": "Mezcales",
-          "fam": "Reposado",
-          "fam_note": "",
           "name": "Espíritu Lauro",
           "name_size": "750ml",
           "name_note": "",
-          "price": 280,
+          "price": 290,
           "price2": 2275
         }
       ],
