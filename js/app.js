@@ -300,32 +300,37 @@ new Vue({
         {
           "name": "Bruxo Espadín <span class='regular-font'>#</span>1 ",
           "name_size": "750ml",
-          "price": 165
+          "price": 170
         },
         {
           "name": "Creyente Espadín ",
           "name_size": "750ml",
-          "price": 165
+          "price": 190
         },
         {
           "name": "Tlacuache",
           "name_size": "750ml",
-          "price": 180
+          "price": 190
         },
         {
           "name": "Nauyaca",
           "name_size": "750ml",
-          "price": 180
+          "price": 190
         },
         {
           "name": "Montelobos",
           "name_size": "750ml",
-          "price": 180
+          "price": 190
         },
         {
           "name": "Amarás",
           "name_size": "750ml",
-          "price": 190
+          "price": 195
+        },
+        {
+          "name": "Bruxo Pechuga <span class='regular-font'>#</span>2 ",
+          "name_size": "750ml",
+          "price": 215
         }
       ],
       mezcalesPremium: [
@@ -507,7 +512,7 @@ new Vue({
           "name_description": "Cremoso",
           "name_size": "",
           "name_note": "",
-          "price": 190,
+          "price": 195,
           "price2": ""
         }
       ],
