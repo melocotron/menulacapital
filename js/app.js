@@ -997,7 +997,7 @@ new Vue({
         {
           "id": 1,
           "name": "Caldo de Piedra",
-          "price": 195
+          "price": 210
         },
         {
           "id": 2,
@@ -1022,24 +1022,19 @@ new Vue({
       ],
       comidasPastas:[
         {
-          "id": 1,
-          "name": "Ravioles de Hongo Cremini a la Mantequilla",
-          "price": 195
-        },
-        {
           "id": 2,
           "name": "Risotto de Camarón y Frijol Negro",
-          "price": 240
+          "price": 255
         },
         {
           "id": 3,
           "name": "Risotto de Hongo Porcini y Espárrago",
-          "price": 235
+          "price": 245
         },
         {
           "id": 4,
           "name": "Penne al Chipotle",
-          "price": 195
+          "price": 210
         }
       ],
       comidasParrillas:[
@@ -1047,13 +1042,13 @@ new Vue({
           "id": 1,
           "name": "Pulpo a la Brasa",
           "name_size": "160g",
-          "price": 290
+          "price": 295
         },
         {
           "id": 2,
           "name": "Plato de Verduras al Grill con Queso de Cabra",
           "name_size": "",
-          "price": 165
+          "price": 175
         },
         {
           "id": 3,
@@ -1065,57 +1060,63 @@ new Vue({
           "id": 4,
           "name": "Pescado Zarandeado",
           "name_size": "500g",
-          "price": 465
+          "price": 495
         },
         {
           "id": 5,
           "name": "Queso Panela Zarandeado",
           "name_size": "180g",
-          "price": 170
+          "price": 180
         }
       ],
       comidasPlatosFuertes: [
         {
+          "id": 10,
+          "name": "Chicharrón de pescado",
+          "name_size": "300g",
+          "price": 245
+        },
+        {
           "id": 1,
           "name": "Filete La Capital",
           "name_size": "180g",
-          "price": 295
+          "price": 310
         },
         {
           "id": 2,
           "name": "Atún en Costra de Chiles Rojos",
           "name_size": "180g",
-          "price": 290
+          "price": 310
         },
         {
           "id": 3,
           "name": "Pescado Tikin Xic",
           "name_size": "200g",
-          "price": 285
+          "price": 300
         },
         {
           "id": 4,
           "name": "Salmón en Costra de Pepita Verde",
           "name_size": "180g",
-          "price": 310
+          "price": 320
         },
         {
           "id": 5,
           "name": "Pechuga de Pollo en Costra de Ceniza",
           "name_size": "180g",
-          "price": 285
+          "price": 295
         },
         {
           "id": 6,
           "name": "Chile en Nogada",
           "name_size": "180g",
-          "price": 340
+          "price": 355
         },
         {
           "id": 7,
           "name": "Enchiladas de Pato con Mole Negro",
           "name_size": "(4pzas)",
-          "price": 310
+          "price": 320
         }
       ],
       comidasEntradas: [
@@ -1123,62 +1124,44 @@ new Vue({
           "id": 1,
           "name": "Tacos La Capital",
           "name_size": "(4pzas)",
-          "price": 235
+          "price": 245
         },
         {
           "id": 2,
           "name": "Chips con Guacamole",
           "name_size": "",
-          "price": 195
+          "price": 205
         },
         {
           "id": 3,
           "name": "Tiradito de atún",
           "name_size": "160g",
-          "price": 195
-        },
-        {
-          "id": 4,
-          "name": "Chicharrón de pescado",
-          "name_size": "300g",
-          "price": 225
+          "price": 215
         },
         {
           "id": 5,
           "name": "Flautas de pescado",
           "name_size": "(3pzas)",
-          "price": 225
-        },
-        {
-          "id": 6,
-          "name": "Petrolera de Bistec",
-          "name_size": "",
-          "price": 195
+          "price": 245
         },
         {
           "id": 7,
           "name": "Tártara de Atún",
           "name_size": "",
-          "price": 195
+          "price": 215
         },
         {
           "id": 8,
           "name": "Cochinita Pibil",
           "name_size": "180g",
-          "price": 230
+          "price": 245
         },
         {
           "id": 9,
           "name": "Esquites",
           "name_size": "",
-          "price": 120
-        },
-        {
-          "id": 10,
-          "name": "Rollos de Salmón",
-          "name_size": "(3pzas)",
-          "price": 190
-        },
+          "price": 130
+        }
       ]
     }
   }
