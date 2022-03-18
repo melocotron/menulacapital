@@ -534,7 +534,7 @@
                         <table>
                           <thead>
                           <tr>
-                            <th colspan="2">Mezcal <span>Unión (2oz)</span></th>
+                            <th colspan="2">Mezcal <span>Unión (1.5oz)</span></th>
                           </tr>
                           </thead>
                           <tbody>
@@ -548,7 +548,7 @@
                         <table>
                           <thead>
                           <tr>
-                            <th colspan="2">Vodka <span>Ketel One (2oz)</span></th>
+                            <th colspan="2">Vodka <span>Ketel One (1.5oz)</span></th>
                           </tr>
                           </thead>
                           <tbody>
@@ -576,7 +576,7 @@
                         <table>
                           <thead>
                           <tr>
-                            <th colspan="2">Martinis <span>(2 oz)</span></th>
+                            <th colspan="2">Martinis <span>(1.5oz)</span></th>
                           </tr>
                           </thead>
                           <tbody>
@@ -596,7 +596,7 @@
                         <table>
                           <thead>
                           <tr>
-                            <th colspan="2">Ginebra <span>Tanqueray (2oz)</span></th>
+                            <th colspan="2">Ginebra <span>Tanqueray (1.5oz)</span></th>
                           </tr>
                           </thead>
                           <tbody>
@@ -615,7 +615,7 @@
                         <table>
                           <thead>
                           <tr>
-                            <th colspan="2">Tequila <span>Don Julio Blanco (2oz)</span></th>
+                            <th colspan="2">Tequila <span>Don Julio Blanco (1.5oz)</span></th>
                           </tr>
                           </thead>
                           <tbody>
@@ -629,7 +629,7 @@
                         <table>
                           <thead>
                           <tr>
-                            <th colspan="2">Whisky <span>Etiqueta Negra (2oz)</span></th>
+                            <th colspan="2">Whisky <span>Etiqueta Negra (1.5oz)</span></th>
                           </tr>
                           </thead>
                           <tbody>
@@ -643,7 +643,7 @@
                         <table>
                           <thead>
                           <tr>
-                            <th colspan="2">Ron <span>Zacapa Ambar (2oz)</span></th>
+                            <th colspan="2">Ron <span>Zacapa Ambar (1.5oz)</span></th>
                           </tr>
                           </thead>
                           <tbody>
@@ -691,7 +691,7 @@
                     <table>
                       <thead>
                       <tr>
-                        <th colspan="2">Mezcal <span>Unión (2oz)</span></th>
+                        <th colspan="2">Mezcal <span>Unión (1.5oz)</span></th>
                       </tr>
                       </thead>
                       <tbody>
@@ -705,7 +705,7 @@
                     <table>
                       <thead>
                       <tr>
-                        <th colspan="2">Ginebra <span>Tanqueray (2oz)</span></th>
+                        <th colspan="2">Ginebra <span>Tanqueray (1.5oz)</span></th>
                       </tr>
                       </thead>
                       <tbody>
@@ -724,7 +724,7 @@
                     <table>
                       <thead>
                       <tr>
-                        <th colspan="2">Vodka <span>Ketel One (2oz)</span></th>
+                        <th colspan="2">Vodka <span>Ketel One (1.5oz)</span></th>
                       </tr>
                       </thead>
                       <tbody>
@@ -738,7 +738,7 @@
                     <table>
                       <thead>
                       <tr>
-                        <th colspan="2">Tequila <span>Don Julio Blanco (2oz)</span></th>
+                        <th colspan="2">Tequila <span>Don Julio Blanco (1.5oz)</span></th>
                       </tr>
                       </thead>
                       <tbody>
@@ -766,7 +766,7 @@
                     <table>
                       <thead>
                       <tr>
-                        <th colspan="2">Whisky <span>Etiqueta Negra (2oz)</span></th>
+                        <th colspan="2">Whisky <span>Etiqueta Negra (1.5oz)</span></th>
                       </tr>
                       </thead>
                       <tbody>
@@ -780,7 +780,7 @@
                     <table>
                       <thead>
                       <tr>
-                        <th colspan="2">Ron <span>Zacapa Ambar (2oz)</span></th>
+                        <th colspan="2">Ron <span>Zacapa Ambar (1.5oz)</span></th>
                       </tr>
                       </thead>
                       <tbody>
@@ -794,7 +794,7 @@
                     <table>
                       <thead>
                       <tr>
-                        <th colspan="2">Martinis <span>(2 oz)</span></th>
+                        <th colspan="2">Martinis <span>(1.5oz)</span></th>
                       </tr>
                       </thead>
                       <tbody>
@@ -903,12 +903,14 @@
                     <thead>
                     <tr>
                       <th>Joven</th>
-                      <th>2oz<br>59.14ml</th>
+                      <th>1.5oz<br>44.36ml</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr v-for="mezcalJoven in mezcalesJovenes">
-                      <td><div class="table-text" v-html="mezcalJoven.name"></div> <span>{{mezcalJoven.name_size}}</span></td>
+                      <td>
+                        <div class="table-text" v-html="mezcalJoven.name"></div>
+                      </td>
                       <td>$ {{mezcalJoven.price}}</td>
                     </tr>
                     </tbody>
@@ -922,7 +924,7 @@
                     </thead>
                     <tbody>
                     <tr v-for="mezcalReposado in mezcalesReposados">
-                      <td>{{mezcalReposado.name}} <span>{{mezcalReposado.name_size}}</span></td>
+                      <td>{{mezcalReposado.name}} </td>
                       <td>$ {{mezcalReposado.price}}</td>
                     </tr>
                     </tbody>
@@ -936,7 +938,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                      <td>Contraluz <span>750 ml</span></td>
+                      <td>Contraluz </td>
                       <td>$ 290</td>
                     </tr>
                     </tbody>
@@ -946,12 +948,14 @@
                     <thead>
                     <tr>
                       <th>Premium</th>
-                      <th>2oz<br>59.14ml</th>
+                      <th>1.5oz<br>44.36ml</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr v-for="mezcalPremium in mezcalesPremium">
-                      <td><div class="table-text" v-html="mezcalPremium.name"></div> <span>{{mezcalPremium.name_size}}</span></td>
+                      <td>
+                        <div class="table-text" v-html="mezcalPremium.name"></div>
+                      </td>
                       <td>$ {{mezcalPremium.price}}</td>
                     </tr>
                     </tbody>
