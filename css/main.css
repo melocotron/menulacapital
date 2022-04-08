@@ -1318,6 +1318,11 @@ textarea {
   width: 70px;
 }
 
+.mobile-subtitle table th {
+  padding: 30px 0 20px 0;
+  font-size: 33px;
+}
+
 .serpiente {
   background: url('../img/serpiente.svg') bottom no-repeat;
   height: 40px;

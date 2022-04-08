@@ -13,7 +13,7 @@ new Vue({
           "name": "Corona",
           "name_size": "355ml",
           "name_note": "",
-          "price": 65
+          "price": 70
         },
         {
           "id": 2,
@@ -24,7 +24,7 @@ new Vue({
           "name": "Corona Light",
           "name_size": "355ml",
           "name_note": "",
-          "price": 65
+          "price": 70
         },
         {
           "id": 3,
@@ -35,7 +35,7 @@ new Vue({
           "name": "Pacífico",
           "name_size": "355ml",
           "name_note": "",
-          "price": 65
+          "price": 70
         },
         {
           "id": 4,
@@ -46,7 +46,7 @@ new Vue({
           "name": "Pacífico Clara",
           "name_size": "355ml",
           "name_note": "",
-          "price": 65
+          "price": 70
         },
         {
           "id": 5,
@@ -57,7 +57,7 @@ new Vue({
           "name": "Montejo",
           "name_size": "355ml",
           "name_note": "",
-          "price": 65
+          "price": 70
         },
         {
           "id": 6,
@@ -68,7 +68,7 @@ new Vue({
           "name": "Modelo Especial",
           "name_size": "355ml",
           "name_note": "",
-          "price": 65
+          "price": 70
         },
         {
           "id": 7,
@@ -79,7 +79,7 @@ new Vue({
           "name": "Negra Modelo",
           "name_size": "355ml",
           "name_note": "",
-          "price": 65
+          "price": 70
         },
         {
           "id": 8,
@@ -90,7 +90,7 @@ new Vue({
           "name": "Victoria",
           "name_size": "355ml",
           "name_note": "",
-          "price": 65
+          "price": 70
         },
         {
           "id": 9,
@@ -99,17 +99,6 @@ new Vue({
           "fam": "Nacionales",
           "fam_note": "",
           "name": "Leon",
-          "name_size": "355ml",
-          "name_note": "",
-          "price": 65
-        },
-        {
-          "id": 10,
-          "cat": "Bebidas",
-          "sub_cat": "Cervezas",
-          "fam": "Nacionales",
-          "fam_note": "",
-          "name": "Nochebuena",
           "name_size": "355ml",
           "name_note": "",
           "price": 70
@@ -125,7 +114,7 @@ new Vue({
           "name": "Colimita (Lager)",
           "name_size": "355ml",
           "name_note": "",
-          "price": 110
+          "price": 120
         },
         {
           "id": 2,
@@ -136,7 +125,7 @@ new Vue({
           "name": "Ticus (Porter)",
           "name_size": "355ml",
           "name_note": "",
-          "price": 110
+          "price": 120
         },
         {
           "id": 3,
@@ -147,7 +136,7 @@ new Vue({
           "name": "Cucapá Kölsch (Clara)",
           "name_size": "",
           "name_note": "",
-          "price": 110
+          "price": 120
         },
         {
           "id": 4,
@@ -158,7 +147,7 @@ new Vue({
           "name": "Cucapá Brown Ale (Oscura)",
           "name_size": "",
           "name_note": "",
-          "price": 110
+          "price": 120
         },
         {
           "id": 5,
@@ -169,7 +158,7 @@ new Vue({
           "name": "Cucapá Enjambre (Helles Lager)",
           "name_size": "",
           "name_note": "",
-          "price": 110
+          "price": 120
         },
         {
           "id": 6,
@@ -180,7 +169,7 @@ new Vue({
           "name": "Charro (Lager/Pilsner)",
           "name_size": "",
           "name_note": "",
-          "price": 110
+          "price": 120
         }
       ],
       cervezasImportadas: [
@@ -300,44 +289,44 @@ new Vue({
         {
           "name": "Bruxo Espadín <span class='regular-font'>#</span>1 ",
           "name_size": "750ml",
-          "price": 170
+          "price": 165
         },
         {
           "name": "Creyente Espadín ",
           "name_size": "750ml",
-          "price": 190
+          "price": 165
         },
         {
           "name": "Tlacuache",
           "name_size": "750ml",
-          "price": 190
+          "price": 180
         },
         {
           "name": "Nauyaca",
           "name_size": "750ml",
-          "price": 190
+          "price": 180
         },
         {
           "name": "Montelobos",
           "name_size": "750ml",
-          "price": 190
+          "price": 160
         },
         {
           "name": "Amarás",
           "name_size": "750ml",
-          "price": 195
-        },
-        {
-          "name": "Bruxo Pechuga <span class='regular-font'>#</span>2 ",
-          "name_size": "750ml",
-          "price": 215
+          "price": 190
         }
+        // {
+        //   "name": "Bruxo Pechuga <span class='regular-font'>#</span>2 ",
+        //   "name_size": "750ml",
+        //   "price": 215
+        // }
       ],
       mezcalesPremium: [
         {
           "name": "Unión \"El Viejo\"",
           "name_size": "750ml",
-          "price": 215
+          "price": 210
         },
         {
           "name": "Amarás Cupreata",
@@ -372,7 +361,7 @@ new Vue({
         {
           "name": "Amarás Logia",
           "name_size": "750ml",
-          "price": 280
+          "price": 250
         },
         {
           "name": "Arroqueño 48",
@@ -432,7 +421,7 @@ new Vue({
           "name_description": "El de la Casa, con Mango y Cítricos",
           "name_size": "",
           "name_note": "",
-          "price": 190,
+          "price": 195,
           "price2": ""
         },
         {
@@ -445,7 +434,7 @@ new Vue({
           "name_description": "Mango, Chamoy y Mezcal",
           "name_size": "",
           "name_note": "",
-          "price": 175,
+          "price": 185,
           "price2": ""
         },
         {
@@ -458,7 +447,7 @@ new Vue({
           "name_description": "Con chile serrano y tajín",
           "name_size": "",
           "name_note": "",
-          "price": 175,
+          "price": 185,
           "price2": ""
         },
         {
@@ -471,7 +460,7 @@ new Vue({
           "name_description": "Escarchado con Sal de Gusano",
           "name_size": "",
           "name_note": "",
-          "price": 170,
+          "price": 185,
           "price2": ""
         },
         {
@@ -484,7 +473,7 @@ new Vue({
           "name_description": "Lima, Miel de Agave y Sal de Gusano",
           "name_size": "",
           "name_note": "",
-          "price": 175,
+          "price": 185,
           "price2": ""
         },
         {
@@ -497,7 +486,7 @@ new Vue({
           "name_description": "Tomatillo, Pepino y Chile Serrano",
           "name_size": "",
           "name_note": "",
-          "price": 175,
+          "price": 185,
           "price2": ""
         }
       ],
@@ -512,7 +501,7 @@ new Vue({
           "name_description": "Cremoso",
           "name_size": "",
           "name_note": "",
-          "price": 195,
+          "price": 210,
           "price2": ""
         }
       ],
@@ -527,7 +516,7 @@ new Vue({
           "name_description": "Cítricos, Pepino y Romero",
           "name_size": "",
           "name_note": "",
-          "price": 195,
+          "price": 210,
           "price2": ""
         },
         {
@@ -540,7 +529,7 @@ new Vue({
           "name_description": "Fruta de la Pasión y Granada",
           "name_size": "",
           "name_note": "",
-          "price": 195,
+          "price": 210,
           "price2": ""
         },
         {
@@ -553,7 +542,7 @@ new Vue({
           "name_description": "Pepino y Guayaba",
           "name_size": "",
           "name_note": "",
-          "price": 195,
+          "price": 210,
           "price2": ""
         },
         {
@@ -567,7 +556,7 @@ new Vue({
           "name_description": ", Campari, Martini Rosso",
           "name_size": "",
           "name_note": "",
-          "price": 210,
+          "price": 230,
           "price2": ""
         }
       ],
@@ -578,24 +567,11 @@ new Vue({
           "sub_cat": "Cocteles",
           "fam": "Whisky",
           "fam_note": "",
-          "name": "Carajillo LA CAPITAL",
-          "name_description": "Receta especial del Chef",
-          "name_size": "",
-          "name_note": "",
-          "price": 230,
-          "price2": ""
-        },
-        {
-          "id": 1,
-          "cat": "Bebidas",
-          "sub_cat": "Cocteles",
-          "fam": "Whisky",
-          "fam_note": "",
           "name": "Smoked Whisky",
           "name_description": "Piña y Romero",
           "name_size": "",
           "name_note": "",
-          "price": 195,
+          "price": 210,
           "price2": ""
         }
       ],
@@ -608,19 +584,6 @@ new Vue({
           "fam_note": "",
           "name": "Piña Colada Especial",
           "name_description": "Piña y Coco Natural",
-          "name_size": "",
-          "name_note": "",
-          "price": 195,
-          "price2": ""
-        },
-        {
-          "id": 2,
-          "cat": "Bebidas",
-          "sub_cat": "Cocteles",
-          "fam": "Ron",
-          "fam_note": "",
-          "name": "NOGADA",
-          "name_description": "Nuez deCastilla y Chile Poblano",
           "name_size": "",
           "name_note": "",
           "price": 210,
@@ -636,7 +599,7 @@ new Vue({
           "name_description": "Nuestro Mojito de Guanábana",
           "name_size": "",
           "name_note": "",
-          "price": 210,
+          "price": 215,
           "price2": ""
         }
       ],
@@ -651,7 +614,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 180,
+          "price": 190,
           "price2": ""
         },
         {
@@ -664,7 +627,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 180,
+          "price": 190,
           "price2": ""
         },
         {
@@ -677,7 +640,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 175,
+          "price": 190,
           "price2": ""
         },
         {
@@ -690,7 +653,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 195,
+          "price": 210,
           "price2": ""
         },
         {
@@ -703,7 +666,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 230,
+          "price": 245,
           "price2": ""
         }
       ],
@@ -718,7 +681,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 170,
+          "price": 180,
           "price2": ""
         },
         {
@@ -731,7 +694,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 180,
+          "price": 190,
           "price2": ""
         },
         {
@@ -744,7 +707,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 185,
+          "price": 195,
           "price2": ""
         },
         {
@@ -757,7 +720,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 170,
+          "price": 185,
           "price2": ""
         },
         {
@@ -770,7 +733,7 @@ new Vue({
           "name_description": "",
           "name_size": "",
           "name_note": "",
-          "price": 195,
+          "price": 210,
           "price2": ""
         }
       ],
